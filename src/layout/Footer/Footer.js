@@ -7,7 +7,7 @@ import {
   FooterSocials,
   BottomWrapper,
   FooterText,
-  FooterHr } from './components/styles';
+  FooterHr } from './styles';
 import  SocialMediaIcons  from '../../components/SocialMediaIcons';
 //Footer Specific Component For Future Use On Clients Growth
 import  FooterInfo  from './components/FooterInfo';

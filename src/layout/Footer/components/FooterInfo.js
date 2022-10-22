@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {InfoFlex} from './styles';
-import {FooterTitle, FooterOutsideLink} from "./styles"
+import {InfoFlex} from '../styles';
+import {FooterTitle, FooterOutsideLink} from "../styles"
 
 //Styled Elements
 

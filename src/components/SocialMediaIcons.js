@@ -1,5 +1,5 @@
 import React from 'react';
-import { FooterOutsideLink } from '../Layout/Footer/components/styles';
+import { FooterOutsideLink } from '../layout/Footer/styles';
 //Icon Imports
 import { FacebookIcon,InstagramIcon } from '../styles';
 

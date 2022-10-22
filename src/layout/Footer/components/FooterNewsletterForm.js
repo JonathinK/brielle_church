@@ -1,5 +1,5 @@
 import React from 'react';
-import { FooterFormLabel, FooterForm, FooterFormInput, FormSpan } from './styles';
+import { FooterFormLabel, FooterForm, FooterFormInput, FormSpan } from '../styles';
 
 
 const FooterNewsletterForm = () => {
