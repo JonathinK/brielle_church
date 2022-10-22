@@ -16,6 +16,24 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path:`${__dirname}/src/data`,
+      }
+    },
+    `gatsby-remark-images`,
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule:{
+          include: /assets/
+        }
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
