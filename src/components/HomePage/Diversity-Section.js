@@ -1,11 +1,19 @@
 import { StaticImage } from "gatsby-plugin-image";
-import React from "react";
-import { Body, Headline, ImageWrapper, InternalLink, Section, SvgWrapper, TextWrapper,Button } from "../styles";
+import * as React from "react";
+import { 
+  Body, 
+  Headline, 
+  ImageWrapper, 
+  InternalLink, 
+  Section, 
+  SvgWrapper, 
+  TextWrapper,
+  Button } from "../../styles";
 import DiversitySvg from "../../Svg/assets/Alt-Hero-Curve.svg"
 
 export const DiversitySection = () => {
   return(
-    <Section SectionPadding>
+    <Section>
       <ImageWrapper
         R="1/4"
         C="1/15"

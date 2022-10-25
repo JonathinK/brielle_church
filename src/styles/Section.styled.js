@@ -9,6 +9,7 @@ export const Section = styled.section`
   grid-auto-rows: auto;
   background:${({theme}) => theme.colors.body};
   transform-styled:preserve-3d;
+  z-index:-1;
 
  @media ${({theme}) => theme.breakpoints.tablet}{
     grid-template-columns: minmax(3rem,1fr) repeat(8,minmax(auto,8rem)) minmax(3rem,1fr);

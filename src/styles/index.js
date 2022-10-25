@@ -32,3 +32,11 @@ export {
 export {
   TextWrapper
 } from "./TextWrapper.styled";
+
+export {
+  Section
+} from "./Section.styled";
+
+export {
+  ImageWrapper
+} from "./ImageWrapper.styled";

@@ -1,5 +1,12 @@
 import React from "react";
-import { Headline, Section, SubHeadline,TextWrapper,Body, InternalLink,Button } from "../styles";
+import { 
+  Headline, 
+  Section, 
+  SubHeadline,
+  TextWrapper,
+  Body, 
+  InternalLink,
+  Button } from "../../styles";
 
 export const ServiceTimes = () => {
   return(
