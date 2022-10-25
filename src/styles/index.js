@@ -40,3 +40,8 @@ export {
 export {
   ImageWrapper
 } from "./ImageWrapper.styled";
+
+export {
+  ListItem,
+  ListWrapper
+} from "./Lists.styled";

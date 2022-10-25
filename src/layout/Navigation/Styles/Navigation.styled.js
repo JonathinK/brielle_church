@@ -45,6 +45,7 @@ export const NavLinksWrapper = styled.ul`
     justify-content:end;
     align-items:end;
     gap:1rem;
+    margin-bottom:.5rem;
     
     @media ${({theme}) => theme.breakpoints.tablet}{
       display:none;
@@ -86,7 +87,7 @@ export const NavLinksWrapper = styled.ul`
     flex-flow:column nowrap;
     justify-content:start;
     align-items:start;
-    gap:.5rem 0;
+    gap:1rem 0;
     padding: 1em 0em;
   `}
   ${props => props.MobileSubLinks && css`
@@ -127,7 +128,7 @@ export const NavLink = styled(Link)`
     align-items:center;
     gap:0 .2rem;
     cursor:pointer;
-    font-size:1.1em;
+    font-size:1.2em;
     color:${({theme}) => theme.colors.darkText};
     text-decoration:none;
     div{
