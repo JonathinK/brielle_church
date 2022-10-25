@@ -19,4 +19,16 @@ export {
   InternalLink,
   Body,
   Caption
-} from "./Typography"
+} from "./Typography";
+
+export {
+  Button
+} from "./Button.styled";
+
+export {
+  SvgWrapper
+} from "./SvgWrapper.styled";
+
+export {
+  TextWrapper
+} from "./TextWrapper.styled";
