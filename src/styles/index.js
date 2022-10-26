@@ -45,3 +45,10 @@ export {
   ListItem,
   ListWrapper
 } from "./Lists.styled";
+
+export {
+  AccordionWrapper,
+  AccordionTextWrapper,
+  AccordionButton,
+  AccordionIcon
+} from "./Accordion.styled";
