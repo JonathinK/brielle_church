@@ -117,4 +117,20 @@ export const TextWrapper = styled.div`
       width:100%;
       transition: .5s ease-in-out;
   `}
+
+  ${props => props.AltTextWrapper && css`
+    justify-self:center;
+    align-self:end;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    position:relative;
+    z-index:2;
+    padding: 3rem 0 2.2rem 0;
+    background:${({theme}) => theme.colors.body};
+    box-shadow: 0px 40px 40px -40px rgba(122,122,122,.3),
+                0px -40px 40px -40px rgba(122,122,122,.3);
+  `}
 `

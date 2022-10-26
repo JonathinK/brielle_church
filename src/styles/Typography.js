@@ -125,7 +125,9 @@ export const Body = styled.p`
   `}
   ${props => props.WhiteText && css`
       color:${({theme}) => theme.colors.white};
-
+  `}
+  ${props => props.LeftAlign && css`
+    text-align:left;
   `}
 `
 
