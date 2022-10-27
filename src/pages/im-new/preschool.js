@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from '../../Layout/Layout';
+import Layout from '../../layout/layout';
 
 import { Hero } from '../../components/Preschool/Hero';
 import { OpeningSection } from '../../components/Preschool/OpeningSection';
