@@ -36,6 +36,7 @@ export const HeroTitleContainer = styled.div`
       grid-column: 2/6;
     }
   `}
+  
   ${props => props.CenterTitle && css`
     grid-column:3/13;
     justify-self:center;
