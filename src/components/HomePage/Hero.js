@@ -41,7 +41,7 @@ export const Hero = () => {
       >
         <CenterSvg/>
       </SvgWrapper> 
-        <Headline WhiteColor>Community | Family | </Headline>
+        <Headline WhiteColor>Community | Family | God</Headline>
         <Button WhiteButton><OutsideLink href="https://www.facebook.com/Thechurchinbrielle/events/" ButtonPadding>Facebook Live</OutsideLink></Button>
       </TextWrapper>
       <SvgWrapper
