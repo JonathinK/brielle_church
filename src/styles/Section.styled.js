@@ -60,11 +60,14 @@ ${props => props.SectionPadding && css`
   &.no-padding{
     padding:0;
   }
+  &.gap-padding{
+    padding:3em 0em;
+  }
   &.larger-gap{
     gap:10rem 0;
 
     @media ${({theme}) => theme.breakpoints.tablet}{
-      gap:0;
+     gap:0;
     }
   }
 `}

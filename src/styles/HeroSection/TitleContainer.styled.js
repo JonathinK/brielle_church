@@ -27,8 +27,8 @@ export const HeroTitleContainer = styled.div`
     grid-column:3/9;
 
     @media ${({theme}) => theme.breakpoints.tablet}{
-      grid-column:2/10;
-      justify-self:start;
+      grid-column:3/9;
+      justify-self:center;
       align-self:center; 
     }
 

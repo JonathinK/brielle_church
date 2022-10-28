@@ -44,9 +44,9 @@ export const PartnerSection = (props) => {
         MC="2/6"
         LeftAlignWrapper
       >
-        <Headline> Why do we give?</Headline>
+        <Headline>Why do we give?</Headline>
         <Body>
-          Donations can help in many ways. Donations also don’t always have to be money related. Donating can help the homeless, give a child a Christmas or even help a family in need. There are so many different ways that donations can help change a perspective. God tells us to be good to one another. We are a team united working to help each other in the best of times and the toughest of times.
+          We give our <strong>Time</strong> to aid those in our community and within our church. Giving back by ways of service is one of the many things that can be done. <strong>Donations</strong> can be a form of giving also. While these aren't necessary to be part of our family, we do appreciate them. There are many things that a church can do and donating in many forms helps us achieve them to better our communities & find spiritual wellness. 
         </Body>
       </TextWrapper>
     </Section>

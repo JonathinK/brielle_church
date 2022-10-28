@@ -111,12 +111,20 @@ ${props => props.SubLinkWrapper && css`
 `}
   @media ${({theme}) => theme.breakpoints.hover}{
     cursor:pointer;
-    
     :hover div{
       max-height:20em;
       opacity:1;
       box-shadow:0px 20px 20px -10px rgba(0,0,0,.5);
       pointer-events:all;
+    }
+  }
+  @media ${({theme}) => theme.breakpoints.tablet}{
+    cursor:pointer;
+    :hover div{
+      max-height:20em;
+      opacity:1;
+      pointer-events:all;
+      box-shadow:none;
     }
   }
 `
@@ -145,14 +153,15 @@ export const NavLink = styled(Link)`
   `} 
 `
 export const SubMenu = styled.div`
-  ${props => props.DesktopDrop && css`
-      transition:.3s ease-in-out;
+${props => props.DesktopDrop && css`
+      transition: all .1s ease-in-out;
       border-radius: 0 0 5px 5px;  
       position:absolute;
       background:${({theme}) => theme.colors.body};
       pointer-events:none;
       max-height:0;
       opacity:0;
+      box-shadow:none;
 
 @media ${({theme}) => theme.breakpoints.noHover}{
 
@@ -178,16 +187,19 @@ export const SubMenu = styled.div`
 }
     
   `}
+
   ${props => props.MobileSub && css`
       transition:.3s ease-in-out;
       border-radius: 0 0 5px 5px;  
       pointer-events:none;
       overflow:hidden;
+      box-shadow:none;
 
     &.im_new{
       max-height:${({dropImNew}) => dropImNew ? "20em" : "0em"};
       opacity:${({dropImNew}) => dropImNew ? "1" : "0"};
       pointer-events:${({dropImNew}) => dropImNew ? "all" : ""};
+      box-shadow:none;
     }
     &.ministries{
       max-height:${({dropMinistries}) => dropMinistries ? "20em" : "0em"};

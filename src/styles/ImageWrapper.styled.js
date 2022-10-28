@@ -96,10 +96,10 @@ ${props => props.Vanco && css`
   border-radius:50%;
   background:#814C96;
   position:relative;
+  margin:4rem 0em;
   
   @media ${({theme}) => theme.breakpoints.tablet}{
-    width:clamp(10em,50vw,17em);
-  
+    width:clamp(9em,40vw,17em);
   }
 `}
 ${props => props.Fullfillment && css`

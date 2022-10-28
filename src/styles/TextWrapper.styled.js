@@ -53,8 +53,9 @@ export const TextWrapper = styled.div`
       gap:.5rem 0;
 
       &.increased_padding{
-        padding:10rem 0;
+        padding:5rem 0;
       }
+
   `}
  
 

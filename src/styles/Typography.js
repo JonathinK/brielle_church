@@ -10,12 +10,20 @@ export const LargeHeadline = styled.h2`
   color:${({theme}) => theme.colors.darkText};
 
   @media ${({theme}) => theme.breakpoints.tablet}{
+    &.cypress_margin{
+      margin-bottom:2rem;
+      }
   }
   @media ${({theme}) => theme.breakpoints.mobile}{
-    
   } 
   ${props => props.AltColor && css`
     color:${({theme}) => theme.colors.header};
+
+    @media ${({theme}) => theme.breakpoints.tablet}{
+    &.mission_margin{
+      margin-bottom:2em;
+      }
+  }
   `}
 
   ${props => props.TextCenter && css`
@@ -41,7 +49,7 @@ export const Headline = styled.h3`
   @media ${({theme}) => theme.breakpoints.tablet}{
   }
   @media ${({theme}) => theme.breakpoints.mobile}{
-    
+  
   }
   ${props => props.WhiteColor && css`
     color:${({theme}) => theme.colors.white};

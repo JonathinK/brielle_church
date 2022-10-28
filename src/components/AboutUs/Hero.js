@@ -23,7 +23,7 @@ export const Hero = () => {
        <StaticImage
         src="../../images/About-Us/Hero.jpg"
         layout='fullWidth'
-        className='background'
+        className='heroBg'
         alt="Side of Church"
         formats={['auto','jpg','webp']}
         quality={50}

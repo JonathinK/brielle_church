@@ -16,7 +16,7 @@ export const HeroSvg = styled.div`
     fill:${({theme}) => theme.colors.body};
   }
   ${props => props.Bottom && css`
-    height:320px;
+    height:clamp(125px,25vw,180px);
     opacity:.3;
     filter:blur(2px);
   `}
@@ -26,7 +26,7 @@ export const HeroSvg = styled.div`
   `}
 
   ${props => props.Top && css`
-    height:clamp(100px,20vw,254px);
+    height:clamp(100px,20vw,150px);
     svg{
       filter:drop-shadow(-10px 0 20px rgba(0,0,0,.4));
     }
@@ -36,18 +36,6 @@ export const HeroSvg = styled.div`
   }
   @media ${({theme}) => theme.breakpoints.mobile}{
     grid-column:1/7;
-
-  ${props => props.Bottom && css`
-    height:clamp(12rem,45vw,20rem);
-    opacity:.3;
-    filter:blur(2px);
-  `}
-  ${props => props.Top && css`
-    height:clamp(9.875rem,40vw,15.875rem);
-    svg{
-      filter:drop-shadow(-10px 0 20px rgba(0,0,0,.4));
-    }
-  `}
   }
 
   

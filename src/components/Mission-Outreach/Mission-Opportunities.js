@@ -23,7 +23,7 @@ export const MissionOpportunitiesSection = (props) => {
         AS="center"
         CenterWrapper
       >
-      <LargeHeadline AltColor>
+      <LargeHeadline AltColor className='mission_margin'>
         Mission Opportunities
       </LargeHeadline>
     </TextWrapper>
@@ -33,9 +33,9 @@ export const MissionOpportunitiesSection = (props) => {
       <TextWrapper
         R="2/3"
         C="8/14"
-        TR="2/3"
+        TR="3/4"
         TC="3/9"
-        MR="2/3"
+        MR="3/4"
         MC="2/6"
         JS="start"
         AS="center"
@@ -54,7 +54,7 @@ export const MissionOpportunitiesSection = (props) => {
         R="2/3"
         C="2/7"
         TR="2/3"
-        TC="3/6"
+        TC="3/8"
         MR="2/3"
         MC="2/6"
         JS="start"
@@ -68,9 +68,9 @@ export const MissionOpportunitiesSection = (props) => {
       <TextWrapper
         R="3/4"
         C="8/14"
-        TR="3/4"
+        TR="5/6"
         TC="3/9"
-        MR="3/4"
+        MR="5/6"
         MC="2/6"
         JS="start"
         AS="center"
@@ -82,15 +82,15 @@ export const MissionOpportunitiesSection = (props) => {
       </Headline>
       <Body>
        We support the Manasquan area food bank with donations of food. You can visit the website to seek more information and see the list of items that the pantry is in need of most.
-      </Body>
+      </Body> 
       <Button><OutsideLink href="https://www.manasquanfoodpantry.org">Food Pantry</OutsideLink></Button>
       </TextWrapper>
       <ImageWrapper
         R="3/4"
         C="2/7"
-        TR="3/4"
-        TC="3/6"
-        MR="3/4"
+        TR="4/5"
+        TC="3/8"
+        MR="4/5"
         MC="2/6"
         JS="start"
         AS="center"
@@ -104,9 +104,9 @@ export const MissionOpportunitiesSection = (props) => {
       <TextWrapper
         R="4/5"
         C="8/14"
-        TR="4/5"
+        TR="7/8"
         TC="3/9"
-        MR="4/5"
+        MR="7/8"
         MC="2/6"
         JS="start"
         AS="center"
@@ -122,9 +122,9 @@ export const MissionOpportunitiesSection = (props) => {
       <ImageWrapper
         R="4/5"
         C="2/7"
-        TR="4/5"
-        TC="3/6"
-        MR="4/5"
+        TR="6/7"
+        TC="3/8"
+        MR="6/7"
         MC="2/6"
         JS="start"
         AS="center"
