@@ -16,7 +16,7 @@ export const Section = styled.section`
 
   }
   @media ${({theme}) => theme.breakpoints.mobile}{
-    grid-template-columns: minmax(2rem,1fr) repeat(4,minmax(auto,9rem)) minmax(2rem,1fr);
+    grid-template-columns: minmax(1rem,1fr) repeat(4,minmax(auto,9rem)) minmax(1rem,1fr);
   }
 
 ${props => props.ChildrensGap && css`

@@ -40,7 +40,7 @@ export const SvgWrapper = styled.div`
   `}
 
   ${props => props.HeroSvg && css`
-    width:clamp(26em,90vw,100%);
+    width:clamp(25em,90vw,100%);
     position:relative;
     
     svg{
@@ -51,7 +51,7 @@ export const SvgWrapper = styled.div`
     }
     &.homepage{
       width:100%;
-      height:clamp(110px,20vw,210px);
+      height:clamp(60px,20vw,210px);
       position:relative;
       z-index:2;
       svg{
@@ -60,7 +60,7 @@ export const SvgWrapper = styled.div`
 
     }
     @media ${({theme}) => theme.breakpoints.tablet}{
-
+      width:100%;
     }
   `}
 

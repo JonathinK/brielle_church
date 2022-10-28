@@ -35,7 +35,7 @@ export const TextWrapper = styled.div`
       gap:.5rem 0;
 
       &.hero_wrapper{
-        gap:1.5rem 0;
+        gap:1.5rem 0;   
       } 
       
       @media ${({theme}) => theme.breakpoints.tablet}{
@@ -43,6 +43,11 @@ export const TextWrapper = styled.div`
           align-items:start;
           text-align:left;
         }
+      }
+      @media ${({theme}) => theme.breakpoints.mobile}{
+       &.hero_wrapper{
+        gap:1rem 0;
+       }
       }
   `}
   ${props => props.LeftAlignWrapper && css`
