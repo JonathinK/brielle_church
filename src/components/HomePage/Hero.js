@@ -20,7 +20,7 @@ export const Hero = () => {
           src="../../images/Homepage/Hero-2.jpg"
           layout="fullWidth"
           alt="Front of Brielle Church"
-          quality={50}
+          quality={60}
           formats={['auto','webp','jpg']}
           className="heroBg"
           loading="eager"
@@ -42,7 +42,7 @@ export const Hero = () => {
         <CenterSvg/>
       </SvgWrapper> 
         <Headline WhiteColor>Community | Family | </Headline>
-        <Button WhiteButton><OutsideLink href="https://www.facebook.com/Thechurchinbrielle/events/">Facebook Live</OutsideLink></Button>
+        <Button WhiteButton><OutsideLink href="https://www.facebook.com/Thechurchinbrielle/events/" ButtonPadding>Facebook Live</OutsideLink></Button>
       </TextWrapper>
       <SvgWrapper
         R="3/4"
