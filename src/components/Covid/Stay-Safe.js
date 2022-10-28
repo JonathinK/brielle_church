@@ -48,7 +48,7 @@ const StaySafe = () => {
       <TextContainer
         SafetyContainer
         Row="1/2"
-        Column="1/15"
+        Column="5/11"
         TRow="1/2"
         TColumn="1/11"
         MRow="1/2"

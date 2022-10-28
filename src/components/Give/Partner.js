@@ -46,7 +46,7 @@ export const PartnerSection = (props) => {
       >
         <Headline>Why do we give?</Headline>
         <Body>
-          We give our <strong>Time</strong> to aid those in our community and within our church. Giving back by ways of service is one of the many things that can be done. <strong>Donations</strong> can be a form of giving also. While these aren't necessary to be part of our family, we do appreciate them. There are many things that a church can do and donating in many forms helps us achieve them to better our communities & find spiritual wellness. 
+          We give our <strong>Time</strong> to aid those in our community and within our church. Giving back by ways of service is one of the many things that can be done. <strong>Donations</strong> can be a form of giving also. While these aren't necessary to be part of our family, we do appreciate them. There are many impacts that a church can have in a community and through various forms of donating we can become a better place for spiritual wellness in our church or communities.
         </Body>
       </TextWrapper>
     </Section>

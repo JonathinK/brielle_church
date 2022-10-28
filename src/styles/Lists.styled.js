@@ -9,4 +9,5 @@ export const ListWrapper = styled.ul`
 
 export const ListItem = styled.li`
   list-style: disc inside;
+  font-size:1.1em;
 `
