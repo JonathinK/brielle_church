@@ -4,8 +4,6 @@ import { GatsbyImage,getImage } from 'gatsby-plugin-image';
 
 import { graphql,useStaticQuery } from 'gatsby';
 
-import  StateSvg  from "../../Svg/assets/Hero-Curve.svg";
-
 import { 
 CovidSections,
 ImageWrapper,
@@ -17,7 +15,6 @@ CovidListItem,
 Button,
 OutSideLink,
 SectionTitle,
-SvgWrapper
 } from './styles';
 
 

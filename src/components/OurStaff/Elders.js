@@ -98,7 +98,7 @@ export const Elders = () => {
           imagedata={Shannon}
           title="ELDER"
           position="Christian Education Ministry"
-          name="Nancy Leblanc"
+          name="Shannon Nish"
           class="no-display"
           staffclass="deacons-elders-other"
         />

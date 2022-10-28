@@ -86,7 +86,7 @@ export const Dawne = () => {
         <Body>
           A piano student since the age of 5 and professional organist since the age of 12. Dawne brings over 40 years of exceptional musical experience to her choirs, students, liturgies or performances as a talented pianist, organist, vocalist, and choir director, along with being a passionate instructor and workshop presenter for her private music studio. Dawne is able to gently guide, encourage and nurture all members in the music ministry to strive and bring forth their greatest Godly gifts into the form of prayer, praise and worship with the assembly at The Church In Brielle. 
         </Body>
-        <Button ><OutsideLink href="mailto:music@churchinbrielle.org">Email Music</OutsideLink></Button>
+        <Button><OutsideLink href="mailto:music@churchinbrielle.org" ButtonPadding>Email Music</OutsideLink></Button>
       </TextWrapper>
     </Section>
   )

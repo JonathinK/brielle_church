@@ -98,7 +98,7 @@ const Give = () => {
       />
       <DesktopSection 
       imagedata={Labtop}
-      vancolink=""
+      vancolink="/"
       />
     </Layout>
   )

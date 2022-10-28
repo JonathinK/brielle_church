@@ -65,7 +65,7 @@ export const WeBelongSection = () => {
         <Body>To the Manasquan Area Ministerium, a collection of churches in the Manasquan and Brielle area that work together to meet local needs. All are welcome!
         </Body>
         <Button>
-          <OutsideLink href='https://manasquanareachurches.org/'>
+          <OutsideLink href='https://manasquanareachurches.org/' ButtonPadding>
           Visit Ministerium
           </OutsideLink>
         </Button>

@@ -17,12 +17,13 @@ export const Hero = () => {
     <HeroSection>
       <HeroImage className="homepage_hero">
         <StaticImage
-          src="../../images/Homepage/Hero.jpg"
+          src="../../images/Homepage/Hero-2.jpg"
           layout="fullWidth"
           alt="Front of Brielle Church"
           quality={50}
           formats={['auto','webp','jpg']}
           className="heroBg"
+          loading="eager"
         />
       </HeroImage>
       <TextWrapper
@@ -40,7 +41,7 @@ export const Hero = () => {
       >
         <CenterSvg/>
       </SvgWrapper> 
-        <Headline WhiteColor>God | Community | Family</Headline>
+        <Headline WhiteColor>Community | Family | </Headline>
         <Button WhiteButton><OutsideLink href="https://www.facebook.com/Thechurchinbrielle/events/">Facebook Live</OutsideLink></Button>
       </TextWrapper>
       <SvgWrapper

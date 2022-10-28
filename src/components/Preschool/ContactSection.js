@@ -26,7 +26,7 @@ export const LastSection = () => {
       <Body>
         If you are interested in our preschool please feel empowered to visit the preschool website. There is a plethora of great information, full program guide and a contact for a full tour before you make your decision.
       </Body>
-      <Button type='button'><OutsideLink href='http://www.churchinbriellepreschool.com/'>Preschool Website</OutsideLink></Button>
+      <Button type='button'><OutsideLink href='http://www.churchinbriellepreschool.com/' ButtonPadding>Preschool Website</OutsideLink></Button>
       </TextWrapper>
     </Section>
   )

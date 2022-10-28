@@ -98,7 +98,7 @@ const HelpSection = () => {
         <SummaryTitle>{info.pantrySummaryTitle}</SummaryTitle>
         <Summary>{info.pantrySummary}</Summary>
         <Button>
-          <OutSideLink href={info.pantryButtonLink}>{info.pantryButtonText}</OutSideLink>
+          <OutSideLink href={info.pantryButtonLink} ButtonPadding>{info.pantryButtonText}</OutSideLink>
         </Button>
       </TextContainer>
       <TextContainer
@@ -110,7 +110,7 @@ const HelpSection = () => {
         <SummaryTitle>{info.rcSummaryTitle}</SummaryTitle>
         <Summary>{info.rcSummary}</Summary>
         <Button>
-          <OutSideLink href={info.rcButtonLink}>{info.rcButtonText}</OutSideLink>
+          <OutSideLink href={info.rcButtonLink} ButtonPadding>{info.rcButtonText}</OutSideLink>
         </Button>
       </TextContainer>
       </InformationWrapper> 

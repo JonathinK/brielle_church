@@ -5,8 +5,7 @@ import {
   Section,
   ImageWrapper,
   SvgWrapper,
-  TextWrapper,
-  LargeHeadline } from '../../styles';
+   } from '../../styles';
 //Svg
 import VancoSvg from "../../Svg/assets/Alt-Hero-Curve.svg";
 
@@ -50,7 +49,7 @@ export const VancoBannerSection = (props) => {
         Shadow
         Vanco
       >
-        <GatsbyImage image={props.imagedata}/>
+        <GatsbyImage image={props.imagedata} alt=""/>
       </ImageWrapper>
     </Section>
   )

@@ -114,7 +114,7 @@ export const TypicalService = () => {
         WorshipImages
       >
         <StaticImage
-          src="../../images/Worship-Service/Fellowship.jpg"
+          src="../../images/Worship-Service/Fellowship-Alt-2.jpg"
           layout="fullWidth"
           alt=""
           quality={50}

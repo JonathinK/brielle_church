@@ -35,7 +35,7 @@ export const StaffMember = (props) => {
             className={props.class}
             type="button"
           >
-            <OutsideLink href={props.emailto}>{props.email}
+            <OutsideLink href={props.emailto}ButtonPadding>{props.email}
             </OutsideLink>
           </Button>
         </TextWrapper>

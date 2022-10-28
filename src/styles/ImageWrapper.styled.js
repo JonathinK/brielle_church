@@ -9,6 +9,8 @@ export const ImageWrapper = styled.div`
   width:100%;
   border-radius:15px;
   overflow:hidden;
+  position:relative;
+  z-index:2;
 
 
 @media ${({theme}) => theme.breakpoints.tablet}{
@@ -40,7 +42,7 @@ ${props => props.Full_Width && css`
     }
     :after{
       content:'';
-      background:rgba(0,0,0,.6);
+      background:rgba(0,0,0,.4);
       width:100%;
       height:100%;
       position:absolute;

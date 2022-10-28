@@ -85,7 +85,7 @@ export const PastorLou = () => {
         <Body>
           Pastor Lou has been pastor of The Church In Brielle since 2009. He has been married to his wife, Karen, since 1989 and they have two daughters, Julianna and Chiara. What Pastor Lou loves most about the church is the people. His passion to help others know, love and serve God is grounded in knowing, loving and serving one another in an inclusive and affirming spirit. His favorite verse is Romans 8:28, “We know that all things work together for good for those who love God, who are called according to God’s purpose.” He received his undergrad from Rutgers University and his Master Of Divinity degree from New Brunswick Theological Seminary. Lou enjoys running, gardening, and teaching.
         </Body>
-        <Button><OutsideLink href="mailto:pastorlou@churchinbrielle.org">Email Pastor</OutsideLink></Button>
+        <Button><OutsideLink href="mailto:pastorlou@churchinbrielle.org" ButtonPadding>Email Pastor</OutsideLink></Button>
       </TextWrapper>
     </Section>
   )

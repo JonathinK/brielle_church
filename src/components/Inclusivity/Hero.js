@@ -23,6 +23,7 @@ export const Hero = () => {
           formats={['jpg','webp','auto']}
           quality={50}
           className="heroBg"
+          loading="eager"
        />
       </HeroImage>
       <HeroTitleContainer LeftAlign>

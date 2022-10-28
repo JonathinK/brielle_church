@@ -8,20 +8,19 @@ export const HeroImage = styled.div`
   position:relative;
   overflow:hidden;
   transform:translateZ(-10px) scale(2);
-
   
-  :after{
-   content:'';
-   width:100%;
-   height:100%;
-   background:rgba(0,0,0,.2);
-   position:absolute;
-   
-  }
   .heroBg{
     position:absolute;
     width:100%;
     height:100%;
+  }
+  :before{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:2;
+    background:rgba(0,0,0,.3);
   }
 
   @media ${({theme}) => theme.breakpoints.tablet}{

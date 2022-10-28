@@ -61,7 +61,7 @@ export const NavLinksWrapper = styled.ul`
     }
     @media ${({theme}) => theme.breakpoints.tablet}{  
       grid-column:9/10;
-      justify-content:center;
+      justify-content:end;
       align-items:center;
     }
     @media ${({theme}) => theme.breakpoints.mobile}{
@@ -95,7 +95,7 @@ export const NavLinksWrapper = styled.ul`
     flex-flow:column nowrap;
     justify-content:center;
     align-items:center;
-    gap:.5rem 0;
+    gap:1rem 0;
     padding: 1em 0em;
     width:100%;
     
@@ -106,11 +106,13 @@ export const NavLinksWrapper = styled.ul`
   `}
 `
 export const NavLinkWrapper = styled.li`
+
 ${props => props.SubLinkWrapper && css`
     width:100%;
 `}
   @media ${({theme}) => theme.breakpoints.hover}{
     cursor:pointer;
+    
     :hover div{
       max-height:20em;
       opacity:1;
@@ -118,6 +120,7 @@ ${props => props.SubLinkWrapper && css`
       pointer-events:all;
     }
   }
+
   @media ${({theme}) => theme.breakpoints.tablet}{
     cursor:pointer;
     :hover div{
@@ -129,7 +132,7 @@ ${props => props.SubLinkWrapper && css`
   }
 `
 export const NavLink = styled(Link)`
-  ${props => props.BarLink && css`
+  ${props => props.barlink && css`
     display:flex;
     flex-flow:row nowrap;
     justify-content:center;
@@ -144,7 +147,7 @@ export const NavLink = styled(Link)`
       transform:translateY(-1.5px);
     }
   `}
-  ${props => props.SubLink && css`
+  ${props => props.sublink && css`
     font-size: 1em;
     padding:0 2rem;
     width:100%;

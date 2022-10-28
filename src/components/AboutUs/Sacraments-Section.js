@@ -27,8 +27,7 @@ export const SacramentsSection = () => {
       >
         <Headline>We celebrate 2 Sacraments</Headline>
         <Body>
-          Contact us for more information <OutsideLink TextLink href='mailto:pastorlou@churchinbrielle.org'>here</OutsideLink>
-          .
+          Contact us for more information <OutsideLink TextLink href='mailto:pastorlou@churchinbrielle.org'>here.</OutsideLink>
           </Body>
       </TextWrapper>
       <TextWrapper

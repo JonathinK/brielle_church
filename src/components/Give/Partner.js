@@ -20,7 +20,7 @@ export const PartnerSection = (props) => {
         MC="2/6"
         Shadow
       >
-        <GatsbyImage image={props.imagedata}/>
+        <GatsbyImage image={props.imagedata} alt=""/>
       </ImageWrapper>
       <TextWrapper
         R="1/2"

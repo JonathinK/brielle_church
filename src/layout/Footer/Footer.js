@@ -2,8 +2,7 @@ import React from 'react';
 //Component Styles
 import { 
   FooterContainer, 
-  LogoWrapper, 
-  FooterSVG, 
+  LogoWrapper,  
   FooterSocials,
   BottomWrapper,
   FooterText,
@@ -12,7 +11,6 @@ import  SocialMediaIcons  from '../../components/SocialMediaIcons';
 //Footer Specific Component For Future Use On Clients Growth
 import  FooterInfo  from './components/FooterInfo';
 import { StaticImage } from 'gatsby-plugin-image';
-import FooterNewsletterForm from './components/FooterNewsletterForm';
 
 
 const PageFooter = () => {
@@ -21,9 +19,11 @@ const PageFooter = () => {
     <LogoWrapper>
       <StaticImage
         src="../../images/Logo.png"
+        alt="Footer Logo"
         layout="constrained"
         width={101}
         quality={100}
+        loading="eager"
       />
     </LogoWrapper>
       <FooterInfo

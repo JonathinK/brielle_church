@@ -46,7 +46,7 @@ export const ServiceTimes = () => {
         type="button"
         WhiteButton
         >
-        <OutsideLink href="https://www.facebook.com/Thechurchinbrielle/">Facebook Live</OutsideLink></Button>
+        <OutsideLink href="https://www.facebook.com/Thechurchinbrielle/" ButtonPadding>Facebook Live</OutsideLink></Button>
      </TextWrapper>
      <TextWrapper
       R="2/3"
@@ -67,7 +67,7 @@ export const ServiceTimes = () => {
         type="button" 
         WhiteButton
         >
-        <OutsideLink href="https://www.google.com/maps/dir/40.0676078,-74.1122502/the+church+in+brielle/@40.0823616,-74.1238442,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89c1866eb7dece6f:0xd0d0fda05eff2e9e!2m2!1d-74.0607639!2d40.1053472">Get Directions</OutsideLink></Button>
+        <OutsideLink href="https://www.google.com/maps/dir/40.0676078,-74.1122502/the+church+in+brielle/@40.0823616,-74.1238442,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89c1866eb7dece6f:0xd0d0fda05eff2e9e!2m2!1d-74.0607639!2d40.1053472" ButtonPadding>Get Directions</OutsideLink></Button>
      </TextWrapper>    
     </Section>
   )

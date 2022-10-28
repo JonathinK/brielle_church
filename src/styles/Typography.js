@@ -53,7 +53,7 @@ export const Headline = styled.h3`
   }
   ${props => props.WhiteColor && css`
     color:${({theme}) => theme.colors.white};
-    text-shadow:0px 0px 5px black;
+    text-shadow:0px 0px 4px black;
   `}
 
   @media ${({theme}) => theme.breakpoints.tablet}{
@@ -133,6 +133,10 @@ export const Body = styled.p`
   `}
   ${props => props.WhiteText && css`
       color:${({theme}) => theme.colors.white};
+      &.text_shadow{
+        text-shadow: 0px 0px 5px black;
+      }
+
   `}
   ${props => props.LeftAlign && css`
     text-align:left;
@@ -157,15 +161,18 @@ export const OutsideLink = styled.a`
   text-decoration:none;
   color:inherit;
   font-size:inherit;
-  display:block;
-  width:100%;
-  height:100%;
-  padding:1.5em 3em;
+  padding:2em 3em;
   
+  ${props => props.ButtonPadding && css`
+     display:block;
+  `}
   ${props => props.TextLink && css`
-    color:${({theme}) => theme.colors.accent};
-    :hover{
+    color:${({theme}) => theme.colors.header};
+    padding:0;
+    @media ${({theme}) => theme.breakpoints.hover}{
+      :hover{
       color:blue;
+    }
     }
   `}
 `
@@ -176,6 +183,6 @@ export const InternalLink = styled(Link)`
   
   ${props => props.ButtonPadding && css`
     display:block;
-    padding:1.5em 3em;
+    padding:2em 3em;
   `}
 `

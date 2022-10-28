@@ -64,7 +64,7 @@ export const DiversitySection = () => {
         <Headline WhiteColor>
           Celebrate Diversity
         </Headline>
-        <Body WhiteText>The Church In Brielle believes that all humanity is created in the image of God. We are a Christian-based community that welcomes all walks of life. We continue to look for leaders, build a dynamic community, welcome all with open arms, help those in need and create a safe place to find a higher purpose for yourself.</Body>
+        <Body WhiteText className="text_shadow">The Church In Brielle believes that all humanity is created in the image of God. We are a Christian-based community that welcomes all walks of life. We continue to look for leaders, build a dynamic community, welcome all with open arms, help those in need and create a safe place to find a higher purpose for yourself.</Body>
         <Button WhiteButton><InternalLink to="/im-new/inclusivity-message" ButtonPadding>Read Message</InternalLink></Button>
       </TextWrapper>
     </Section>

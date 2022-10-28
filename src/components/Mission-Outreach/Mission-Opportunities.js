@@ -48,7 +48,7 @@ export const MissionOpportunitiesSection = (props) => {
       <Body>
          We support the efforts of a local humanitarian aid organization, Cypress Missions,  led by a group of passionate New Jersey locals. Cypress aids locally, nationally and internationally by rebuilding homes, giving aid for school supplies or general needs for survival. Visit the website to get more information.
       </Body>
-      <Button><OutsideLink href="https://www.cypressmissions.com">Cypress Missions</OutsideLink></Button>
+      <Button><OutsideLink href="https://www.cypressmissions.com" ButtonPadding>Cypress Missions</OutsideLink></Button>
       </TextWrapper>
       <ImageWrapper
         R="2/3"
@@ -83,7 +83,7 @@ export const MissionOpportunitiesSection = (props) => {
       <Body>
        We support the Manasquan area food bank with donations of food. You can visit the website to seek more information and see the list of items that the pantry is in need of most.
       </Body> 
-      <Button><OutsideLink href="https://www.manasquanfoodpantry.org">Food Pantry</OutsideLink></Button>
+      <Button><OutsideLink href="https://www.manasquanfoodpantry.org" ButtonPadding>Food Pantry</OutsideLink></Button>
       </TextWrapper>
       <ImageWrapper
         R="3/4"

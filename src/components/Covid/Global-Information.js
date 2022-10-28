@@ -100,7 +100,7 @@ const GlobalInformation = () => {
             <GatsbyImage image={cdcimage} className="imageStyles"/>
           </ImageWrapper>
           <Button>
-            <OutSideLink href={info.cdcButtonLink}>
+            <OutSideLink href={info.cdcButtonLink} ButtonPadding>
               {info.cdcButtonText}
             </OutSideLink>
           </Button>

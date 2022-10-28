@@ -21,7 +21,7 @@ export const MobileSection = (props) => {
         MR="1/2"
         MC="2/6"
       >
-        <GatsbyImage image={props.imagedata}/>
+        <GatsbyImage image={props.imagedata} alt=""/>
       </ImageWrapper>
       <TextWrapper
         R="1/2"
