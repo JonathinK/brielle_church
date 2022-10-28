@@ -17,7 +17,7 @@ export const Hero = () => {
     <HeroSection>
       <HeroImage className="homepage_hero">
         <StaticImage
-          src="../../images/Homepage/Hero-2.jpg"
+          src="../../images/Homepage/HeroAlt.jpg"
           layout="fullWidth"
           alt="Front of Brielle Church"
           quality={60}
