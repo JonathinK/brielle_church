@@ -4,7 +4,7 @@ import Layout from '../../layout/layout';
 //components
 import GlobalInformation from '../../components/Covid/Global-Information';
 import Hero from '../../components/Covid/Hero';
-import SafetyConcerns from '../../components/Covid/Safety-Concerns';
+
 import StateInformation from '../../components/Covid/State-Information';
 import Help from "../../components/Covid/Help";
 
@@ -16,7 +16,7 @@ const CovidInfo = () => {
   return(
     <Layout>
       <Hero/>
-      <SafetyConcerns/>
+      
       <StateInformation/>
       <GlobalInformation/>
       <Help/>
