@@ -13,7 +13,7 @@ import {
   SectionTitle
 } from "./styles";
 
-const SafetyConcerns = () => {
+export const SafetyConcerns = () => {
     const data = useStaticQuery(graphql`
     query {
       safetyConcernsJson {
@@ -73,4 +73,3 @@ const SafetyConcerns = () => {
     </CovidSections>
   )
 }
-export default SafetyConcerns

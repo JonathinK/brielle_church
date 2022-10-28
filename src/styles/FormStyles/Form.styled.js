@@ -183,5 +183,5 @@ export const ButtonWrapper = styled.div`
   align-items:center;
 `
 export const FormSubmitButton = styled(Button)`
-
+  padding: 1.5em 3em;
 `

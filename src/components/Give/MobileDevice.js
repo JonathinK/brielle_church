@@ -42,12 +42,12 @@ export const MobileSection = (props) => {
         </Body>
         <div>
           <Button>
-            <OutsideLink href={props.applelink}>
+            <OutsideLink href={props.applelink} ButtonPadding>
             Apple Link
             </OutsideLink>
             </Button>
           <Button>
-            <OutsideLink href={props.androidlink}>
+            <OutsideLink href={props.androidlink} ButtonPadding>
             Android Link
             </OutsideLink>
             </Button>

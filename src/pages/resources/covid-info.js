@@ -7,7 +7,7 @@ import Hero from '../../components/Covid/Hero';
 
 import StateInformation from '../../components/Covid/State-Information';
 import Help from "../../components/Covid/Help";
-
+import { SafetyConcerns } from "../../components/Covid/Safety-Concerns";
 import Seo from '../../components/seo';
 
 
@@ -16,7 +16,7 @@ const CovidInfo = () => {
   return(
     <Layout>
       <Hero/>
-      
+      <SafetyConcerns/>
       <StateInformation/>
       <GlobalInformation/>
       <Help/>

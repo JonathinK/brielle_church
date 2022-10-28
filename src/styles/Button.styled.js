@@ -7,7 +7,6 @@ export const Button = styled.button`
   text-transform:uppercase;
   background:${({theme}) => theme.colors.accent};
   color:${({theme}) => theme.colors.darkText};
-  padding:1.5rem 2.5rem;
   border:none;
   border-radius:5px;
   margin-top:1.5rem;

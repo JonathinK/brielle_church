@@ -40,7 +40,7 @@ export const DesktopSection = (props) => {
         <Body>
           This is the second best option to donate via website. While this isn’t A phone application, it works much the same. You create an account by going through the steps provided or you can choose to donate with no account.
         </Body>
-       <Button><OutsideLink href={props.vancolink}>Vanco Website</OutsideLink></Button>
+       <Button><OutsideLink href={props.vancolink} ButtonPadding>Vanco Website</OutsideLink></Button>
       </TextWrapper>
     </Section>
   )

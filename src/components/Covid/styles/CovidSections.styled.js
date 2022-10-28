@@ -15,7 +15,7 @@ export const CovidSections = styled.section`
   
   ${props => props.StateSection && css`
     margin-top:3rem;
-    gap:1rem 0rem;
+    gap:2rem 0rem;
     :before{
       content:'';
       position:absolute;

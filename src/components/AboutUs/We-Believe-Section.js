@@ -35,7 +35,7 @@ export const WeBelieveSection = () => {
         <Button
           WhiteButton
         >
-        <InternalLink to="/im-new/our-beliefs">Our Beliefs</InternalLink></Button>
+        <InternalLink to="/im-new/our-beliefs" ButtonPadding>Our Beliefs</InternalLink></Button>
       </TextWrapper>
     </Section>
   )

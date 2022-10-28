@@ -157,7 +157,11 @@ export const OutsideLink = styled.a`
   text-decoration:none;
   color:inherit;
   font-size:inherit;
-
+  display:block;
+  width:100%;
+  height:100%;
+  padding:1.5em 3em;
+  
   ${props => props.TextLink && css`
     color:${({theme}) => theme.colors.accent};
     :hover{
@@ -169,4 +173,9 @@ export const InternalLink = styled(Link)`
   text-decoration:none;
   color:inherit;
   font-size:inherit;
+  
+  ${props => props.ButtonPadding && css`
+    display:block;
+    padding:1.5em 3em;
+  `}
 `

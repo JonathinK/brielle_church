@@ -119,4 +119,9 @@ export const OutSideLink = styled.a`
   font-size: 1rem;
   font-weight: ${({theme}) => theme.fontWeight.semiBold};
   text-decoration:none;
+  display:block;
+  width:100%;
+  height:100%;
+  padding:1.5em 3em;
+  text-align:center;
 `
