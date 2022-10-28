@@ -16,7 +16,6 @@ export const FooterSocials = styled.div`
   svg{ 
     height:50px;
     color:${({theme}) => theme.colors.header};
-    filter:drop-shadow(0px 4px 2px rgba(0,0,0,.2));
   }
 
   @media ${({theme}) => theme.breakpoints.tablet}{
