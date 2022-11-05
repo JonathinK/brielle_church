@@ -24,3 +24,9 @@ const CovidInfo = () => {
   )
 }
 export default CovidInfo
+
+export const Head = () => {
+  <Seo
+    title="Covid Resources"
+  />
+}

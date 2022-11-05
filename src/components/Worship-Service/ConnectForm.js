@@ -21,8 +21,8 @@ export const ConnectionCard = () => {
         JS="center"
         AS="start"
       >
-      <SiteForm name="Connection Card" method="POST" data-netlify="true" autoComplete="on">
-        <FormInput type="hidden" name="Subject" value="Connection Card Information from TheChurchInBrielle.netlify.app"/>
+      <SiteForm name="Connection Card" method="post" data-netlify="true" autoComplete="on" data-netlify-honeypot="bot-field">
+        <FormInput type="hidden" name="Subject" value="Connection Card"/>
         <FormSpan>
           <FormLabel name="first-name" >
             First Name*

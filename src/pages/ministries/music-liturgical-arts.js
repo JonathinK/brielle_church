@@ -7,7 +7,8 @@ import Layout from '../../layout/layout';
 import { Hero } from '../../components/Music-Ministry/Hero';
 import { IntroSection } from '../../components/Music-Ministry/Intro';
 import { TopTextSection } from '../../components/Music-Ministry/Top-Text';
-
+//Seo
+import Seo from "../../components/seo";
 
 const MusicLiturgicalArts = () => {
   const data = useStaticQuery(graphql`
@@ -54,3 +55,9 @@ const MusicLiturgicalArts = () => {
   )
 }
 export default MusicLiturgicalArts
+
+export const Head = () => {
+  <Seo
+    title="Music and Liturgical Arts"
+  />
+}

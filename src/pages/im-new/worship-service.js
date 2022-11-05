@@ -8,6 +8,9 @@ import { TypicalService } from '../../components/Worship-Service/TypicalService'
 import { Faq } from '../../components/Worship-Service/Faq';
 import { ConnectionSection } from '../../components/Worship-Service/Connection-Section';
 
+//Seo
+import Seo from "../../components/seo";
+
 const WorshipService = () => {
   return(
     <Layout>
@@ -20,3 +23,7 @@ const WorshipService = () => {
   )
 }
 export default WorshipService
+
+export const Head = () => {
+  <Seo title="Worship Service"/>
+}

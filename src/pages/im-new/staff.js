@@ -10,15 +10,15 @@ import { Administration } from '../../components/OurStaff/Administration';
 import { Elders } from '../../components/OurStaff/Elders';
 import { OtherStaff } from '../../components/OurStaff/Other';
 
+//Seo
+import Seo from "../../components/seo";
+
 //Styles
 import {
   Section,
   LargeHeadline,
   TextWrapper 
-} from "../../styles"
-
-
-
+} from "../../styles";
 
 const Staff = () => {
   return(
@@ -50,3 +50,9 @@ const Staff = () => {
   )
 }
 export default Staff
+
+export const Head = () => {
+  <Seo 
+    title="Staff"
+  />
+}

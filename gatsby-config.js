@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `The Church In Brielle`,
     description: `We are an open and inclusive church. We welcome all from our communities as we interpret the word of god, while creating a center of spiritual wellness.`,
-    author: `Diamond Digital Services`,
+    author: `@Diamond Digital Services`,
     siteUrl: `https://www.thechurchinbrielle.org`,
   },
   plugins: [

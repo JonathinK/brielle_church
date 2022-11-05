@@ -24,3 +24,9 @@ const PreSchool = () => {
   )
 }
 export default PreSchool
+
+export const Head = () => {
+  <Seo
+    title="Pre School"
+  />
+}

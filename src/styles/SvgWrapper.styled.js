@@ -40,8 +40,9 @@ export const SvgWrapper = styled.div`
   `}
 
   ${props => props.HeroSvg && css`
-    width:clamp(25em,90vw,100%);
+    width:clamp(20em,50vw,100%);
     position:relative;
+
     
     svg{
       fill:${({theme}) => theme.colors.body};
@@ -51,7 +52,7 @@ export const SvgWrapper = styled.div`
     }
     &.homepage{
       width:100%;
-      height:clamp(60px,20vw,210px);
+      height:10vh;
       position:relative;
       z-index:2;
       svg{

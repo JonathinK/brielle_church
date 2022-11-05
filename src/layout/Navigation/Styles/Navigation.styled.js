@@ -5,7 +5,7 @@ import { ArrowDown } from "styled-icons/evaicons-solid";
 
 export const NavigationBar = styled.header`
   width:100%;
-  height:6em;
+  height:5em;
   position:fixed;
   z-index:10;
   background:${({theme}) => theme.colors.body};
@@ -44,6 +44,8 @@ export const NavLinksWrapper = styled.ul`
     flex-flow:row nowrap;
     justify-content:end;
     align-items:end;
+    justify-self:end;
+    align-self:end;
     gap:1rem;
     margin-bottom:.5rem;
     
@@ -88,7 +90,7 @@ export const NavLinksWrapper = styled.ul`
     justify-content:start;
     align-items:start;
     gap:1rem 0;
-    padding: 1em 0em;
+    padding: 1em 1em;
   `}
   ${props => props.MobileSubLinks && css`
     display:flex;
@@ -123,7 +125,7 @@ ${props => props.SubLinkWrapper && css`
 
   @media ${({theme}) => theme.breakpoints.tablet}{
     cursor:pointer;
-    :hover div{
+    div{
       max-height:20em;
       opacity:1;
       pointer-events:all;
@@ -149,7 +151,7 @@ export const NavLink = styled(Link)`
   `}
   ${props => props.sublink && css`
     font-size: 1em;
-    padding:0 2rem;
+    padding:0;
     width:100%;
     color:inherit;
     text-decoration:none;
@@ -225,6 +227,7 @@ export const SlideOutMenu = styled.div`
   height:100vh;
   width:${({menuOpen}) => menuOpen ? "100%" : "0"};
   transform:${({menuOpen}) => menuOpen ? "translateX(1)":"translateX(-1000px)"};
+  transform-origin:left;
   transition: .5s ease-in-out;
   background:${({theme}) => theme.colors.body};
   display:flex;

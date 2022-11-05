@@ -8,7 +8,7 @@ export const HeroSvg = styled.div`
   align-self:end;
   font-size:0;
   width:100%;
-  
+  transform:translateY(1px);  
   svg{
     position:absolute;
     height:100%;

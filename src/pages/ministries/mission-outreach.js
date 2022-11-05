@@ -11,6 +11,9 @@ import { AssistanceFeedingSection } from "../../components/Mission-Outreach/Assi
 import { TopTextSection } from '../../components/Mission-Outreach/Top-Text';
 import { ChangingLivesSection } from '../../components/Mission-Outreach/ChangingLives';
 
+//Seo
+import Seo from "../../components/seo";
+
 const MissionsOutreach = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -111,3 +114,7 @@ const MissionsOutreach = () => {
   )
 }
 export default MissionsOutreach
+
+export const Head = () => {
+  <Seo title='Missions and Outreach'/>
+}

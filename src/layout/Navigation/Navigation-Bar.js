@@ -18,7 +18,7 @@ const Navigation = () => {
           layout="constrained"
           alt="Church Logo"
           quality={100}
-          width={200}
+          width={150}
         />
       </InternalLink>
       </LogoWrapper>

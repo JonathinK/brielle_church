@@ -29,7 +29,8 @@ import useOnClickOutside from "../../../hooks/useOnClickOutside";
     </Hamburger>
     <SlideOutMenu menuOpen={menuOpen}>
       <NavLinksWrapper MobileMenu>
-      <NavLinkWrapper onClick={openImNew} dropImNew={dropImNew} ref={closeImNew}>
+      <NavLinkWrapper 
+        onClick={openImNew} dropImNew={dropImNew} >
       <NavLink barlink>
       I'm New
       <div>
@@ -37,7 +38,7 @@ import useOnClickOutside from "../../../hooks/useOnClickOutside";
       </div>
       </NavLink>
       <SubMenu MobileSub dropImNew={dropImNew} className="im_new">
-        <NavLinksWrapper MobileSubLinks>
+        <NavLinksWrapper MobileSubLinks ref={closeImNew}>
           <NavLinkWrapper SubLinkWrapper>
             <NavLink sublink to="/im-new/about-us">About Us</NavLink>
           </NavLinkWrapper>

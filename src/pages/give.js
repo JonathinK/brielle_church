@@ -9,6 +9,9 @@ import { VancoBannerSection } from '../components/Give/VancoBanner';
 import { MobileSection } from '../components/Give/MobileDevice';
 import { DesktopSection } from '../components/Give/DesktopGive';
 import { Hero } from '../components/Give/Hero';
+//Seo
+import Seo from "../components/seo";
+
 //Styles
 import { 
   LargeHeadline, 
@@ -105,3 +108,9 @@ const Give = () => {
 }
 
 export default Give
+
+export const Head = () => {
+  <Seo
+    title="Give to the church in brielle"
+  />
+}
