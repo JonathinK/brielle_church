@@ -21,15 +21,15 @@ export const ConnectionCard = () => {
         JS="center"
         AS="start"
       >
-      <SiteForm name="Connection Card" method="post" data-netlify="true" autoComplete="on" data-netlify-honeypot="bot-field">
-        <FormInput type="hidden" name="Subject" value="Connection Card"/>
+      <SiteForm name="connection" method="post" data-netlify="true" autoComplete="on" data-netlify-honeypot="bot-field">
+        <FormInput type="hidden" name="form-name" value="connection"/>
         <FormSpan>
-          <FormLabel name="first-name" >
-            First Name*
+          <FormLabel>
+            First Name
               <FormInput 
               placeholder="Your name.." 
               type="text" 
-              name="First-Name:" 
+              name="firstname" 
               required/>
           </FormLabel>
         </FormSpan>
@@ -39,7 +39,7 @@ export const ConnectionCard = () => {
             <FormInput 
             placeholder="Your last name.." 
             type="text" 
-            name="Last-Name:" 
+            name="lastname" 
             required
             />
           </FormLabel>
@@ -51,7 +51,7 @@ export const ConnectionCard = () => {
               placeholder="(111)333-5555" 
               required 
               type="tel"
-              name="Tel:"
+              name="telephone"
               maxLength="14"
               inputMode="numeric"
               autoComplete="on"
@@ -80,6 +80,7 @@ export const ConnectionCard = () => {
               autoCorrect="on"
               autoCapitalize="word"
               type="text"
+              name="message"
             />
           </FormLabel>
         </FormSpan>
