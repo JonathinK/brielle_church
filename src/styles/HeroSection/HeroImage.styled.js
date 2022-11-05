@@ -7,7 +7,7 @@ export const HeroImage = styled.div`
   width:100%;
   position:relative;
   overflow:hidden;
-  transform:translateZ(-10px) scale(2);
+  transform:translateZ(-10px) scale(2.1);
   
   .heroBg{
     position:absolute;
