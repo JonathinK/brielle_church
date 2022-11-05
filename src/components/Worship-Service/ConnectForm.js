@@ -87,23 +87,23 @@ export const ConnectionCard = () => {
         <div required>
           <SubTitle>How did you hear of us?</SubTitle>  
             <FormLabel RadioWrapper>
-              <FormInput Radio type="radio" name="radio"/>
+              <FormInput Radio type="radio" name="How did you hear of us?" value="Family / Friends"/>
               Family / Friends
             </FormLabel>
             <FormLabel RadioWrapper>
-              <FormInput Radio type="radio" name="radio"/>
+              <FormInput Radio type="radio" name="How did you hear of us?" value="Social Media"/>
               Social Media
             </FormLabel>
             <FormLabel RadioWrapper>
-              <FormInput Radio type="radio" name="radio"/>
+              <FormInput Radio type="radio" name="How did you hear of us?" value="Online"/>
               Online
             </FormLabel>
             <FormLabel RadioWrapper>
-              <FormInput Radio type="radio" name="radio"/>
+              <FormInput Radio type="radio" name="How did you hear of us?" value="Driving by"/>
               Driving By
             </FormLabel>
             <FormLabel RadioWrapper>
-              <FormInput Radio type="radio" name="radio"/>
+              <FormInput Radio type="radio" name="radio" value="Other"/>
               Other
             </FormLabel>
         </div> 
