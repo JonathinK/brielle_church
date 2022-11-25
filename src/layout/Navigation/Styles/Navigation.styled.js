@@ -223,7 +223,7 @@ export const SlideOutMenu = styled.div`
   position:fixed;
   z-index:11;
   top:0;
-  right:0;
+  left:0;
   height:100vh;
   width:${({menuOpen}) => menuOpen ? "100%" : "0"};
   transform:${({menuOpen}) => menuOpen ? "translateX(1)":"translateX(-1000px)"};
