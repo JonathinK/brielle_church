@@ -30,6 +30,9 @@ ${props => props.Left && css`
   background:${({theme}) => theme.colors.accent};
   justify-content:end;
   align-items:center;
+  justify-self:end;
+  align-self:center;
+  width:100%;
   
   @media ${({theme}) => theme.breakpoints.mobile}{
     justify-content:start;
