@@ -12,6 +12,7 @@ import { DiversitySection } from '../components/HomePage/Diversity-Section';
 const HomePage = () => {
   return(
    <Layout>
+   <Seo title="Home"/>
       <Hero/>
       <ServiceTimes/>
       <DiversitySection/>
