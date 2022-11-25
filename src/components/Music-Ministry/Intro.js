@@ -61,7 +61,7 @@ export const IntroSection = (props) => {
           Giving through her gifts
         </Headline>
         <Body>
-          Our director of music and worship arts, Dawne, has created a wonderful, safe, and upbeat environment for everyone that’s involved or interested in our programs. There is no prior knowledge needed or restrictions in place; the music ministry is open and welcome to everyone.  
+          Our Director of Music and Liturgical Arts, Dawne, has created a wonderful, safe, and joy-filled environment for everyone that’s involved or interested in our programs. Our music ministry is a diverse group of ages, background, experience and musical knowledge as young as 3 years old through the young at heart in their late 80s.  Our musical door welcomes everyone! Experience or music reading not required, just a love of music and Jesus.
         </Body>
       </TextWrapper>
       <TextWrapper
@@ -76,7 +76,7 @@ export const IntroSection = (props) => {
       >
         <Headline>What to expect?</Headline>
         <Body>
-          At each rehearsal we teach a bit of music theory or better known as our roadmap. The Children’s choir and the Cherub choir are new  pieces to our programs, that we are very excited for! We look forward to meeting you and we hope to see you with us making beautiful music in the name of God.
+          Each choir rehearsal encompasses the art of learning some music theory (our roadmap), making beautiful vocal harmony (our goal) and sharing laughter and love with each other (the best part!). We are blessed to have our choirs share their gifts at our liturgies regularly.
         </Body>
       </TextWrapper>
       <ImageWrapper

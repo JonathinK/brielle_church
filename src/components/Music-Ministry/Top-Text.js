@@ -40,7 +40,7 @@ export const TopTextSection = () => {
         AS="center"
         CenteredWrapper
       >
-        <LargeHeadline>An empowerment of worship through music & arts</LargeHeadline>
+        <LargeHeadline>Empowering all for worship and prayer through a variety of music and the arts.</LargeHeadline>
       </TextWrapper>
     </Section>
   )
