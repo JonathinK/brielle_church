@@ -8,8 +8,8 @@ import { WeBelongSection } from "../../components/AboutUs/We-Belong-Section";
 import { SacramentsSection } from "../../components/AboutUs/Sacraments-Section";
 import { EndingSection } from "../../components/AboutUs/Ending-Section";
 
-//Seo
-import Seo from "../../components/seo";
+//Seo 
+import Seo from "../../components/seo"
 
 const AboutUs = () => {
   return(
@@ -23,10 +23,6 @@ const AboutUs = () => {
     </Layout>
   )
 }
+export const Head = () => <Seo title="About Us"/>
 export default AboutUs 
 
-export const Head = () => {
-  <Seo
-    title="About Us"
-  />
-}

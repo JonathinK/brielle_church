@@ -4,8 +4,10 @@ import Layout from '../../layout/layout';
 //Components
 import { Hero } from '../../components/OurBeliefs/Hero';
 import { Belief } from "../../components/OurBeliefs/Belief";
+
 //Seo
-import Seo from "../../components/seo";
+import Seo from "../../components/seo"
+
 //Styles
 import{
   Section,
@@ -60,10 +62,5 @@ const OurValues = () => {
     </Layout>
   )
 }
+export const Head = () => <Seo title="Our Values"/>
 export default OurValues
-
-export const Head = () => {
-  <Seo
-    title="Our Beliefs"
-  />
-}

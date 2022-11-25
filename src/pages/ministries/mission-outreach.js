@@ -10,9 +10,10 @@ import { MissionOpportunitiesSection } from '../../components/Mission-Outreach/M
 import { AssistanceFeedingSection } from "../../components/Mission-Outreach/Assistance-Feeding";
 import { TopTextSection } from '../../components/Mission-Outreach/Top-Text';
 import { ChangingLivesSection } from '../../components/Mission-Outreach/ChangingLives';
+//Seo 
+import Seo from "../../components/seo"
 
-//Seo
-import Seo from "../../components/seo";
+
 
 const MissionsOutreach = () => {
   const data = useStaticQuery(graphql`
@@ -113,8 +114,6 @@ const MissionsOutreach = () => {
     </Layout>
   )
 }
+export const Head = () => <Seo title="Missions & Outreach"/>
 export default MissionsOutreach
 
-export const Head = () => {
-  <Seo title='Missions and Outreach'/>
-}

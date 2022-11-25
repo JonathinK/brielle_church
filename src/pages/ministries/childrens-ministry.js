@@ -8,6 +8,7 @@ import { Hero } from '../../components/Childrens/Hero';
 import { Section, ImageWrapper } from '../../styles';
 import { TextWrapper} from "../../components/Childrens/styles";
 import { AltScripture, ScriptureText,SummaryTitle,Summary } from '../../components/Childrens/styles/Typography';
+
 //Seo
 import Seo from "../../components/seo";
 
@@ -153,9 +154,6 @@ const ChildrensMinistry = () => {
   )
 }
 
-
+export const Head = () => <Seo title="Childrens Ministry"/>
 export default ChildrensMinistry
 
-export const Head = () => {
-  <Seo title="Children's Ministry"/>
-}

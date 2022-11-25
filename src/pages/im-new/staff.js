@@ -49,10 +49,5 @@ const Staff = () => {
     </Layout>
   )
 }
+export const Head = () => <Seo title="Our Staff"/>
 export default Staff
-
-export const Head = () => {
-  <Seo 
-    title="Staff"
-  />
-}

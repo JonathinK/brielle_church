@@ -21,8 +21,8 @@ import useOnClickOutside from "../../../hooks/useOnClickOutside";
   return(
     <NavLinksWrapper Desktop>
       <NavLinkWrapper onClick={openImNew} dropImNew={dropImNew} ref={closeImNew}>
-      <NavLink barlink>
-      I'm New
+      <NavLink barlink to="#">
+        I'm New
       <div>
         <Arrow/>
       </div>
@@ -51,7 +51,7 @@ import useOnClickOutside from "../../../hooks/useOnClickOutside";
       </SubMenu>
       </NavLinkWrapper>
       <NavLinkWrapper onClick={openMinistries} dropMenu={dropMinistries} >
-        <NavLink barlink>
+        <NavLink barlink to="#">
           Ministries
           <div>
             <Arrow/>
@@ -66,7 +66,7 @@ import useOnClickOutside from "../../../hooks/useOnClickOutside";
         </SubMenu>
       </NavLinkWrapper>
       <NavLinkWrapper onClick={openResources} dropResources={dropResources} ref={closeResources}>
-      <NavLink barlink>
+      <NavLink barlink to="#">
       Resources
       <div>
         <Arrow/>

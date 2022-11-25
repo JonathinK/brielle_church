@@ -18,6 +18,7 @@ import {
   Section, 
   SubHeadline, 
   TextWrapper } from '../styles';
+
 const Give = () => {
  const data = useStaticQuery(graphql`
     query {
@@ -106,11 +107,5 @@ const Give = () => {
     </Layout>
   )
 }
-
+export const Head = () => <Seo title="Give to the Church In Brielle"/>
 export default Give
-
-export const Head = () => {
-  <Seo
-    title="Give to the church in brielle"
-  />
-}

@@ -22,8 +22,6 @@ const WorshipService = () => {
     </Layout>
   )
 }
+export const Head = () => <Seo title="Worship Service"/>
 export default WorshipService
-
-export const Head = () => {
-  <Seo title="Worship Service"/>
-}
+ 

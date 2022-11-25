@@ -8,9 +8,9 @@ import Hero from '../../components/Covid/Hero';
 import StateInformation from '../../components/Covid/State-Information';
 import Help from "../../components/Covid/Help";
 import { SafetyConcerns } from "../../components/Covid/Safety-Concerns";
-import Seo from '../../components/seo';
 
-
+//seo
+import Seo from "../../components/seo"
 
 const CovidInfo = () => {
   return(
@@ -23,10 +23,5 @@ const CovidInfo = () => {
     </Layout>
   )
 }
+export const Head = () => <Seo title="Church Covid Info"/>
 export default CovidInfo
-
-export const Head = () => {
-  <Seo
-    title="Covid Resources"
-  />
-}

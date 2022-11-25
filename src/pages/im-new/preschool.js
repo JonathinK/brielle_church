@@ -6,15 +6,14 @@ import { Hero } from '../../components/Preschool/Hero';
 import { OpeningSection } from '../../components/Preschool/OpeningSection';
 import { DirectorSection } from '../../components/Preschool/DirectorSection';
 import { ExpectationSection } from '../../components/Preschool/ExpectationSection';
-import Seo from '../../components/seo';
 import { LastSection } from '../../components/Preschool/ContactSection';
+
+//Seo
+import Seo from "../../components/seo"
 
 const PreSchool = () => {
   return(
    <Layout>
-   <Seo
-    title='The Church In Brielle Preschool'
-   />
     <Hero/>
     <OpeningSection/>
     <DirectorSection/>
@@ -23,10 +22,5 @@ const PreSchool = () => {
    </Layout>
   )
 }
+export const Head = () => <Seo title="Preschool"/>
 export default PreSchool
-
-export const Head = () => {
-  <Seo
-    title="Pre School"
-  />
-}

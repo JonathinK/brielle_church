@@ -4,11 +4,11 @@ import { StaticImage } from 'gatsby-plugin-image';
 //Component Import
 import { Hero } from '../../components/Inclusivity/Hero';
 
-//Seo
-import Seo from "../../components/seo";
-
 //Layout Import
 import Layout from '../../layout/layout';
+
+//Seo
+import Seo from "../../components/seo"
 
 //Styled Imports
 import { 
@@ -68,10 +68,6 @@ const InclusivityMessage = () => {
     </Layout>
   )
 }
+export const Head = () => <Seo title="Inclusivity Message"/>
 export default InclusivityMessage
 
-export const Head = () => {
-  <Seo 
-    title="Inclusivity Message"
-  />
-}
