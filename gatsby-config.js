@@ -25,6 +25,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-json`,
+    `gatsby-plugin-sitemap`,
     `gatsby-remark-images`,
     {
       resolve: "gatsby-plugin-react-svg",
