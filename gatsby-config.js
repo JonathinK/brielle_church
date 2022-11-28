@@ -21,11 +21,20 @@ module.exports = {
         path: `${__dirname}/src/data`,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-5496HTD",
+        includeInDevelopment: false,
+        enableWebVitalsTracking: true, 
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-json`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
     `gatsby-remark-images`,
     {
       resolve: "gatsby-plugin-react-svg",

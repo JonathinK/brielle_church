@@ -118,7 +118,6 @@ ${props => props.SubLinkWrapper && css`
     :hover div{
       max-height:20em;
       opacity:1;
-      box-shadow:0px 20px 20px -10px rgba(0,0,0,.5);
       pointer-events:all;
     }
   }
@@ -186,7 +185,6 @@ ${props => props.DesktopDrop && css`
     &.resources{
       max-height:${({dropResources}) => dropResources ? "20em" : "0em"};
       opacity:${({dropResources}) => dropResources ? "1" : "0"};
-      box-shadow:${({dropResources}) => dropResources ? "0px 20px 20px -10px rgba(0,0,0,.5)" : ""};
       pointer-events:${({dropResources}) => dropResources ? "all" : ""};
     }
 }

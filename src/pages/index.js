@@ -17,5 +17,5 @@ const HomePage = () => {
    </Layout>
   )
 }
-export const Head = () => <Seo/>
+export const Head = () => <Seo title="HomePage"/>
 export default HomePage
