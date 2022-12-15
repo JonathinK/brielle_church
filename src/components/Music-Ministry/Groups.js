@@ -18,7 +18,7 @@ export const Groups = () => {
       </InternalLink>
       </MusicMinistryImages>
       <MusicMinistryImages id="Handbell_Choir" GroupsImage>
-        <InternalLink>
+        <InternalLink to="handbell-choir">
           <StaticImage
             src="../../images/Music-Ministry/Handbell-Choir.jpg"
             alt="Handbell Choir"
@@ -30,7 +30,7 @@ export const Groups = () => {
         </InternalLink>
       </MusicMinistryImages>
       <MusicMinistryImages id="Praise_Ensemble" GroupsImage>
-        <InternalLink>
+        <InternalLink to="praise-ensemble">
           <StaticImage
             src="../../images/Music-Ministry/Praise-Ensemble.jpg"
             alt="Praise-Ensemble"
@@ -42,7 +42,7 @@ export const Groups = () => {
         </InternalLink>
       </MusicMinistryImages>
       <MusicMinistryImages id="Childrens_Choir" GroupsImage>
-        <InternalLink>
+        <InternalLink to="childrens-choir">
           <StaticImage
             src="../../images/Music-Ministry/Childrens-Choir.jpg"
             alt=""
@@ -54,7 +54,7 @@ export const Groups = () => {
         </InternalLink>
       </MusicMinistryImages>
       <MusicMinistryImages id="Liturgical_Dance_Team" GroupsImage>
-        <InternalLink>
+        <InternalLink to="liturgical-dance">
           <StaticImage
             src="../../images/Music-Ministry/Liturgical-Dance.jpg"
             alt="Liturgical Dance Team"
@@ -66,7 +66,7 @@ export const Groups = () => {
         </InternalLink>
       </MusicMinistryImages>
       <MusicMinistryImages id="Middle_School_Leadership" GroupsImage>
-        <InternalLink>
+        <InternalLink to="middleschool-leadership">
           <StaticImage
             src="../../images/Music-Ministry/Middle-School.jpg"
             alt="Middle School Leadership"
