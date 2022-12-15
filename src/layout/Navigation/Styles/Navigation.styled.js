@@ -143,11 +143,13 @@ export const NavLink = styled(Link)`
     font-size:1.2em;
     color:${({theme}) => theme.colors.darkText};
     text-decoration:none;
+    
     div{
       width:16px;
       transform:translateY(-1.5px);
     }
   `}
+
   ${props => props.sublink && css`
     font-size: 1em;
     padding:0;
@@ -155,6 +157,9 @@ export const NavLink = styled(Link)`
     color:inherit;
     text-decoration:none;
   `} 
+`
+export const MenuLinkTrigger = styled.p`
+  
 `
 export const SubMenu = styled.div`
 ${props => props.DesktopDrop && css`

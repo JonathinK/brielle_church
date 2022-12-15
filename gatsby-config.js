@@ -20,7 +20,7 @@ module.exports = {
         name: `data`,
         path: `${__dirname}/src/data`,
       },
-    },
+    }, 
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
@@ -36,6 +36,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     `gatsby-remark-images`,
+    `gatsby-plugin-mdx`,
     {
       resolve: "gatsby-plugin-react-svg",
       options: {

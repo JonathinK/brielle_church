@@ -8,7 +8,6 @@ export const SvgWrapper = styled.div`
     svg{
       width:100%;
       height:100%;
-      fill:${({theme}) => theme.colors.body};
     }
 
   @media ${({theme}) => theme.breakpoints.tablet}{
@@ -85,12 +84,24 @@ export const SvgWrapper = styled.div`
   `}
 
   ${props => props.StaffLines && css`
+    position:relative;
+    z-index:2;
 
     svg{
       height:100%;
       width:100%;
-      fill:${({theme}) => theme.colors.accent};
-      filter:drop-shadow(0px -5px 10px rgba(122,122,122,.3));
+    }
+  `}
+  ${props => props.MusicNotesSvg && css`
+    position:relative;
+    width:100%;
+    height:100%;
+    font-size:0;
+    bottom:-1px;
+
+    svg{
+      width:100%;
+      height:100%;
     }
   `}
 `

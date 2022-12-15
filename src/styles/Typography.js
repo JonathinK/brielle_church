@@ -68,6 +68,10 @@ export const SubHeadline = styled.h3`
   font-weight:${({theme}) => theme.fontWeight.regular};
   letter-spacing: .15px; 
   color:${({theme}) => theme.colors.darkText};
+  
+  &.padding{
+    padding:4rem 0;
+  }
 
   @media ${({theme}) => theme.breakpoints.tablet}{
     

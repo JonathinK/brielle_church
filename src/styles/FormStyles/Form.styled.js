@@ -33,6 +33,9 @@ export const SiteForm = styled.form`
   div{
     width:100%;
   }
+   &.full_width_display{
+    flex-flow:column wrap;
+   }
 `
 export const FormInput = styled.input`
   width:100%;

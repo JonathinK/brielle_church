@@ -16,6 +16,6 @@ const HomePage = () => {
       <DiversitySection/>
    </Layout>
   )
-}
-export const Head = () => <Seo title="HomePage"/>
+  }
+  export const Head = () => <Seo/>
 export default HomePage

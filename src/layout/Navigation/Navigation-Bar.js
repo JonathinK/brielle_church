@@ -1,4 +1,4 @@
-import React,{useEffect,useState, useRef} from 'react';
+import * as React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 
 import { LogoWrapper, NavigationBar } from './Styles';
@@ -8,7 +8,6 @@ import { InternalLink } from '../../styles';
 
 
 const Navigation = () => {
-  
   return(
     <NavigationBar>
       <LogoWrapper>
@@ -16,7 +15,7 @@ const Navigation = () => {
         <StaticImage
           src="../../images/Logo-Text.png"
           layout="constrained"
-          alt="Church Logo"
+          alt=""
           quality={100}
           width={150}
         />

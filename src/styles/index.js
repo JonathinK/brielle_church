@@ -46,9 +46,27 @@ export {
   ListWrapper
 } from "./Lists.styled";
 
+//Accordion
 export {
   AccordionWrapper,
   AccordionTextWrapper,
   AccordionButton,
   AccordionIcon
 } from "./Accordion.styled";
+
+//ImageHolder for pages
+export {
+  MusicMinistryImages
+} from "./ImageHolder.styled";
+
+//Music Groups 
+export {
+  MusicGroupsContainer,
+  GroupsImagesContainer,
+  ExpectationInfo
+} from "./MusicGroups.styled";
+
+//Iframe Container
+export {
+  IframeContainer
+} from "./IframeContainer.styled";

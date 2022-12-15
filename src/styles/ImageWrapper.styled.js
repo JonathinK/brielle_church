@@ -10,8 +10,7 @@ export const ImageWrapper = styled.div`
   border-radius:15px;
   overflow:hidden;
   position:relative;
-  z-index:2;
-
+  z-index:1;
 
 @media ${({theme}) => theme.breakpoints.tablet}{
   grid-row:${props => props.TR};
@@ -32,6 +31,7 @@ ${props => props.Shadow && css`
     box-shadow: 0px 10px 30px -5px rgba(122,122,122,.5);
   }
 `}
+
 ${props => props.Full_Width && css`
     border-radius:0;
     min-height:50vh;
@@ -39,6 +39,12 @@ ${props => props.Full_Width && css`
     z-index:1;
     &.full_height{
       min-height:100vh;
+    }
+    &.no_overlay{
+      height:100%;
+      :after{
+        display:none;
+      }
     }
     :after{
       content:'';
@@ -125,5 +131,11 @@ ${props => props.MusicNote && css`
   position:relative;
   filter:drop-shadow(-10px 20px 10px rgba(122,122,122,.5)) blur(1px);
   opacity:1;
+`}
+
+${props => props.Parallax && css`
+  position:relative;
+  overflow:hidden;
+  transform:translateZ(-10px) scale(2.05);
 `}
 `

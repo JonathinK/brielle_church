@@ -6,7 +6,7 @@ import styled from "styled-components";
   grid-auto-rows:auto;
   gap-column:1rem;
   background:${({theme}) => theme.colors.body};
-  padding-top:1rem;
+  padding-top:5rem;
 
   @media ${props => props.theme.breakpoints.tablet}{
     grid-template-columns: minmax(2.5rem,1fr) repeat(8, minmax(auto,9rem)) minmax(2.5rem,1fr);
