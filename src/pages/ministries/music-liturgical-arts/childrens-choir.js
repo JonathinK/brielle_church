@@ -3,7 +3,7 @@ import Layout from '../../../layout/layout';
 import Seo from '../../../components/seo';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Hero, HeroSvgContainer, PageHeroContainer, PageTitle, PageTitleWrapper } from '../../../styles/pagehero';
-import { SvgWrapper, Section, MusicMinistryImages, TextWrapper, Headline, Body,ExpectationInfo } from '../../../styles';
+import { SvgWrapper, Section, MusicMinistryImages, TextWrapper, Headline, Body,ExpectationInfo,GroupsImagesContainer } from '../../../styles';
 import { Form } from "../../../components/Music-Ministry/Form";
 import HeroSvg from "../../../Svg/assets/Alt-Hero-Curve.svg";
 import StaffLines from "../../../Svg/assets/StaffLines.svg";
@@ -53,38 +53,85 @@ const ChildrensChoir = () => {
           >
           <StaffLines/>
       </SvgWrapper>
-      <MusicMinistryImages GroupImage>
+      <MusicMinistryImages GroupPageImage>
         <StaticImage
           src="../../../images/Music-Ministry/Childrens-Choir.jpg"
           alt="Chancel Choir standing together"
           className='_image'
           quality={60}
           webpOptions={{quality:90}}
+          placeholder="blurred"
         />
 
       </MusicMinistryImages>
       </Section>
       <Section id="About_Our_Group">
-      <TextWrapper CenteredWrapper C="5/11" R="4/5" TC="3/9" MC="2/6" >
-        <Headline AltColor>About Our Group</Headline>
-        <Body>A fun, active group of children ages 1st - 5th grade who love to sing or play percussion and hand chimes all to glorify God.</Body>
+      <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
+        <Headline AltColor>About Our Choir</Headline>
+        <Body>A fun, active group of children ages 3rd through - 5th grade who love to sing or play percussion and handchimes all to glorify God.</Body>
       </TextWrapper>
+      <GroupsImagesContainer>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Childrens-Choir-1.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:100}}
+            className="img"
+            placeholder='blurred'
+          />
+        </div>
+          
+        </MusicMinistryImages>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Childrens-Choir-2.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+          />
+        </div>
+          
+        </MusicMinistryImages>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Childrens-Choir-3.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+          />
+        </div>
+          
+        </MusicMinistryImages>
+      </GroupsImagesContainer>
       </Section>
       <Section id="Expectation_Info">
-      <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg Rotate>
+      <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg>
         <MusicSvg/>
       </SvgWrapper>
       <ExpectationInfo>
         <Headline>What to expect</Headline>
         <ul>
-          <li>The Children sing/play during the service on the 1st Sunday of the month ( communion Sunday) and the 3rd Sunday of the month at service before they head to school.
+          <li id="Sing">
+            <b><i>SING</i></b> The Children sing/play during the service on the 1st Sunday of the month ( Communion Sunday) and the 3rd Sunday of the month before they head to Children’s Church. The Children also sing for special occasions such as Christmas Eve and Easter Services.
           </li>
-          <li>
-          Thursday rehearsal , 5:15 - 6:00pm, we share our love for each other and the lord by singing together, practicing rhythmic instruments, and learning hand chimes!
+          <li id="Rehearse">
+            <b><i>REHEARSE</i></b> Our precious children rehearse on Thursdays 5:15pm - 6:00pm. We learn new songs, singing and using instruments.   
+          </li>
+          <li id="Meet">
+            <b><i>MEET</i></b> Our precious children rehearse on Thursdays 5:15pm - 6:00pm. We learn new songs, singing and using instruments.   
+          </li>
+          <li id="Blessing">
+            <b><i>BLESSING</i></b> The children’s choir share our love for each other and the Lord by singing together, practicing with rhythmic instruments, and learning hand chimes! They sing texts that uplift, encourage and assist in their faith development.  Singing for their church family also promotes confidence in public settings and their ability to express themselves more fully.
           </li>
         </ul>        
       </ExpectationInfo>
-      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" Rotate Flip>
+      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" RotateX>
         <MusicSvg/>
       </SvgWrapper>
       </Section>

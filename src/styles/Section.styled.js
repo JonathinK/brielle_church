@@ -5,7 +5,7 @@ export const Section = styled.section`
   width:100%;
   position:relative;
   display:grid;
-  grid-template-columns: minmax(2rem,auto) repeat(12,minmax(auto,8.5rem))minmax(2rem,auto);
+  grid-template-columns: minmax(3rem,auto) repeat(12,minmax(auto,8.5rem))minmax(3rem,auto);
   grid-auto-rows: auto;
   background:${({theme}) => theme.colors.body};
   transform-styled:preserve-3d;

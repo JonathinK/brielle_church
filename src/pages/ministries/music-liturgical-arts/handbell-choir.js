@@ -53,7 +53,7 @@ const HandbellChoir = () => {
           >
           <StaffLines/>
       </SvgWrapper>
-      <MusicMinistryImages GroupImage>
+      <MusicMinistryImages GroupPageImage>
         <StaticImage
           src="../../../images/Music-Ministry/Handbell-Choir.jpg"
           alt="Chancel Choir standing together"
@@ -65,33 +65,75 @@ const HandbellChoir = () => {
       </MusicMinistryImages>
       </Section>
       <Section id="About_Our_Group">
-      <TextWrapper CenteredWrapper C="5/11" R="4/5" TC="3/9" MC="2/6" >
-        <Headline AltColor>About Our Group</Headline>
-        <Body>A mixed group of teen and adult ringers with a varied range of experience from beginner to over 30 years ringing.</Body>
+      <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
+        <Headline AltColor>About Our Ringers</Headline>
+        <Body>A mixed group of teen and adult ringers with a varied range of age & experience from beginner to over 30 years ringing.</Body>
       </TextWrapper>
       <GroupsImagesContainer>
-
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Handbell-Choir-1.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+            alt=""
+          />
+        </div>
+          
+        </MusicMinistryImages>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Handbell-Choir-2.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:80}}
+            className="img"
+            placeholder='blurred'
+            alt=""
+          />
+        </div>
+          
+        </MusicMinistryImages>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Handbell-Choir-3.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+            alt=""
+          />
+        </div>
+          
+        </MusicMinistryImages>
       </GroupsImagesContainer>
       </Section>
       <Section id="Expectation_Info">
-      <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg Rotate>
+      <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg>
         <MusicSvg/>
       </SvgWrapper>
       <ExpectationInfo>
         <Headline>What to expect</Headline>
         <ul>
-         <li>
-         Ring once a month at 10AM service and on special occasions.
-         </li>
-         <li>
-         Play and/or sing each Sunday at 10AM service.
-         </li>
-         <li>
-         All members meet at 9:15AM for warm-up.
-         </li>
+          <li id="Ring">
+            <b><i>RING</i></b>  Handbell Choir rings every 4 to 6 weeks September through June. 
+          </li>
+          <li id="Rehearse">
+            <b><i>REHEARSE</i></b> Our teen/adult Handbell Choir practices weekly 6pm to 7:15pm where we learn together, ring and laugh always. 
+          </li>
+          <li id="Meet">
+            <b><i>MEET</i></b> On Handbell Sunday ringers arrive by 8:45AM to warm up for our 10AM liturgy. 
+          </li>
+          <li id="Blessing">
+            <b><i>BLESSING</i></b> Playing handbells is very peaceful as most ringers will share with you. The vibration of ringing encourages relaxation, as well as memory and coordination skills. The focus is on just 1 or 2 bells as a beginner. Ringing is a bucket list item,  everyone should ring at least once... heavenly!!
+          </li>
         </ul>        
       </ExpectationInfo>
-      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" Flip >
+      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" RotateX>
         <MusicSvg/>
       </SvgWrapper>
       </Section>

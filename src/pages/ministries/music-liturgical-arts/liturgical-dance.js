@@ -53,9 +53,9 @@ const LiturgicalDance = () => {
           >
           <StaffLines/>
       </SvgWrapper>
-      <MusicMinistryImages GroupImage>
+      <MusicMinistryImages GroupPageImage>
         <StaticImage
-          src="../../../images/Music-Ministry/Chancel-Choir.jpg"
+          src="../../../images/Music-Ministry/Liturgical-Dance.jpg"
           alt="Chancel Choir standing together"
           className='_image'
           quality={60}
@@ -65,29 +65,71 @@ const LiturgicalDance = () => {
       </MusicMinistryImages>
       </Section>
       <Section id="About_Our_Group">
-      <TextWrapper CenteredWrapper C="5/11" R="4/5" TC="3/9" MC="2/6" >
-        <Headline AltColor>About Our Group</Headline>
-        <Body>Dancers ages 6th grade through adult who addd depth to our liturgy and God’s  holy word in movement and song, bringing the world alive in the hearts of the faithful</Body>
+      <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
+        <Headline AltColor>About Our Dance Ensemble</Headline>
+        <Body>Liturgical Dancers ages 6th grade through adult who add depth to our liturgy and God’s holy word in movement and song, bringing the Word alive in the hearts of the faithful.</Body>
       </TextWrapper>
       <GroupsImagesContainer>
-
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Liturgical-Dance-1.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+          />
+        </div>
+          
+        </MusicMinistryImages>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Liturgical-Dance-2.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+          />
+        </div>
+          
+        </MusicMinistryImages>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Liturgical-Dance-3.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+          />
+        </div>
+          
+        </MusicMinistryImages>
       </GroupsImagesContainer>
       </Section>
       <Section id="Expectation_Info">
-      <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg Rotate>
+      <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg>
         <MusicSvg/>
       </SvgWrapper>
       <ExpectationInfo>
         <Headline>What to expect</Headline>
         <ul>
-          <li>The liturgical dance team present the gospel quarterly</li>
-          <li>Practices are held as needed with Ms. Sheryl Guerrero in the sanctuary.</li>
-          <li>
-          Share your talent in dance and movement!
+          <li id="Sing">
+            <b><i>SING</i></b> The liturgical dance team present their choreographed dances to the gospel quarterly. 
+          </li>
+          <li id="Rehearse">
+            <b><i>REHEARSE</i></b> Dance practices are held as needed with dance instructor Ms. Sheryl Guerrero in the sanctuary in preparation for upcoming services.
+          </li>
+          <li id="Meet">
+            <b><i>MEET</i></b> Dancers meet in sanctuary at 8:45am to warm-up and review dance with music and readers.
+          </li>
+          <li id="Blessing">
+            <b><i>BLESSING</i></b> Liturgical Dance can bring healing, express joy, and proclaim His good news. Dance also brings about unity with each other.  Share your talent in dance and movement!
           </li>
         </ul>        
       </ExpectationInfo>
-      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" Rotate Flip>
+      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" RotateX>
         <MusicSvg/>
       </SvgWrapper>
       </Section>

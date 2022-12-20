@@ -60,7 +60,7 @@ export const Form = () => {
           className="full-Width"
         >
           <FormLabel>
-            Tell us more about yourself & your group interest
+            Tell us about yourself & your choir interest
             <FormText
               placeholder="Type here.."
               autoComplete="off"

@@ -11,7 +11,7 @@ import {
   PageHeroContainer,Hero,PageTitleWrapper,PageTitle,HeroSvgContainer,Subtitle
 } from '../../../styles/pagehero';
 import{
-  MusicMinistryImages,ImageWrapper,Section,SvgWrapper,TextWrapper, Headline,Body, MusicGroupsContainer, IframeContainer, LargeHeadline,SubHeadline
+  MusicMinistryImages,ImageWrapper,Section,SvgWrapper,TextWrapper, Headline,Body,  IframeContainer, SubHeadline
 } from "../../../styles";
 import{
   VerseContainer,Verse,Proverb
@@ -136,12 +136,8 @@ const MusicPage = () => {
       <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg >
         <MusicSvg/>
       </SvgWrapper>
-      <MusicGroupsContainer>
-        <Headline>Music Groups</Headline>
-        <Body>If you are interested  in our music & liturgical arts groups please feel free to read more information by clicking on the the group listed below.</Body>
-        <Groups/>
-      </MusicGroupsContainer>
-      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" Rotate Flip>
+      <Groups/>
+      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" RotateX>
         <MusicSvg/>
       </SvgWrapper>
     </Section>

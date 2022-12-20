@@ -54,7 +54,7 @@ const ChancelChoir = () => {
           >
           <StaffLines/>
       </SvgWrapper>
-      <MusicMinistryImages GroupImage>
+      <MusicMinistryImages GroupPageImage>
         <StaticImage
           src="../../../images/Music-Ministry/Chancel-Choir.jpg"
           alt="Chancel Choir standing together"
@@ -66,44 +66,79 @@ const ChancelChoir = () => {
       </MusicMinistryImages>
       </Section>
       <Section id="About_Our_Group">
-      <TextWrapper CenteredWrapper C="5/11" R="4/5" TC="3/9" MC="2/6" >
-        <Headline AltColor>About Our Group</Headline>
+      <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
+        <Headline AltColor>About Our Choir</Headline>
         <Body>A welcoming group of teen and adult singers who share a love of music which glorifies God and supports the congregation in prayer and praise.</Body>
       </TextWrapper>
       <GroupsImagesContainer>
-
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Chancel-Choir-1.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+          />
+        </div>
+          
+        </MusicMinistryImages>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Chancel-Choir-2.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+          />
+        </div>
+          
+        </MusicMinistryImages>
+        <MusicMinistryImages GroupsImage>
+        <div className='overflow_container'>
+          <StaticImage
+            src="../../../images/Music-Ministry/Chancel-Choir-3.jpg"
+            layout="fullWidth"
+            quality={60}
+            webpOptions={{quality:90}}
+            className="img"
+          />
+        </div>
+          
+        </MusicMinistryImages>
       </GroupsImagesContainer>
       </Section>
       <Section id="Expectation_Info">
-      <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg Rotate>
+      <SvgWrapper R="1/2" C="1/15" TR="1/2" TC="1/11" MC="1/7" MR="1/2" JS="center" AS="end" MusicNotesSvg>
         <MusicSvg/>
       </SvgWrapper>
       <ExpectationInfo>
         <Headline>What to expect</Headline>
         <ul>
-          <li>Sing each Sunday & prepare special anthems for the 2nd & the 4th Sundays of each month.</li>
-          <li>Thursday rehearsal, 7:15AM - 8:30PM 
-          <br/>
-          <span>
-          — Encompasses the art of learning some music theory (our roadmap)
-          </span>
-          <br/>
-          <span>
-          — Making beautiful vocal harmony( our goal ) and sharing laughter and love with each other ( the best part )
-          </span>
-          <br/>
-          <span>
-          — Reading Music is not necessary! ( Voice parts can be recorded to practice at home ) 
-          </span>
+          <li id="Sing">
+            <b><i>SING</i></b> each Sunday & prepare special anthems for the 2nd & the 4th Sundays of each month throughout the year. We also sing our annual Christmas Cantata (a community favorite!), a Tenebrae candlelight service during Lent, and special services for Christmas and Easter. We are community involved and also share our voices in community events throughout the year. 
           </li>
-          <li>All members meet at 9:15AM for warm-up & review for 10AM service.
+          <li id="Rehearse">
+            <b><i>REHEARSE</i></b> Thursdays 7:15pm - 8:30pm. Each rehearsal...
+            <br/>
+            <span> *Encompasses the art of learning some music theory-our roadmap.</span>
+            <br/>
+            <span>*Making beautiful vocal harmony -our goal.</span>
+            <br/>
+            <span>* Sharing laughter and love with each other-the best part. </span>
+            <br/>
+            <span>**Reading Music is not necessary!  Voice parts can also be recorded to practice at home.</span>
           </li>
-          <li>
-            Grow in friendship, spirituality, and fellowship.
+          <li id="Meet">
+            <b><i>MEET</i></b> All members meet at 9:15AM on Sunday for warm-up & review for 10AM liturgy.
+          </li>
+          <li id="Blessing">
+            <b><i>BLESSING</i></b> Grow in friendship, spirituality, and fellowship.
           </li>
         </ul>        
       </ExpectationInfo>
-      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" Rotate Flip>
+      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" RotateX>
         <MusicSvg/>
       </SvgWrapper>
       </Section>
