@@ -8,6 +8,7 @@ import styled,{css} from "styled-components";
 export const MusicMinistryImages = styled.div`
   .image{
     position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
     border-radius:10px;
@@ -58,6 +59,7 @@ ${props => props.MusicDirector && css`
   grid-column:9/13;
   grid-row:1/2;
   position:relative;
+  z-index:2;
   border-radius:10px;
   border-collapse:separate;
   
@@ -91,6 +93,7 @@ ${props => props.MusicDirector && css`
 
 ${props => props.WhatToExpect && css`
   position:relative;
+  z-index:2;
   grid-row:1/2;
   grid-column:3/7;
   border-radius:10px;
@@ -139,6 +142,7 @@ ${props => props.GroupPageImage && css`
   
   .group_image{
     position:absolute;
+    z-index:1;
     width:100%;
     height:100%;
     border-radius:10px;
@@ -153,6 +157,8 @@ ${props => props.GroupPageImage && css`
 `} 
 ${props => props.GroupsImage && css`
   flex:1 0 auto;
+  position:relative;
+  z-index:2;
   width:30%;
   max-width:100%;
   min-width:250px;
@@ -167,12 +173,14 @@ ${props => props.GroupsImage && css`
     border-radius:10px;
     border-collapse:separate;
     position:relative;
+    z-index:1;
     aspect-ratio:4/3;
     width:100%;
     height:100%;
     
     .img{
       position:absolute;
+      z-index:0;
       width:100%;
       height:100%;
       transition:all .5s ease-in-out;
