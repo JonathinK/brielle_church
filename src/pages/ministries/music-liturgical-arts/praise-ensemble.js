@@ -59,6 +59,7 @@ const PraiseEnsemble = () => {
           src="../../../images/Music-Ministry/Praise-Ensemble.jpg"
           alt="Praise Ensemble"
           className='_image'
+          imgClassName='img_props'
           quality={60}
           webpOptions={{quality:90}}
         />
@@ -81,6 +82,7 @@ const PraiseEnsemble = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
           />
         </div>
           
@@ -93,6 +95,7 @@ const PraiseEnsemble = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
           />
         </div>
           
@@ -105,6 +108,7 @@ const PraiseEnsemble = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
           />
         </div>
           

@@ -58,6 +58,7 @@ const ChildrensChoir = () => {
           src="../../../images/Music-Ministry/Childrens-Choir.jpg"
           alt="Chancel Choir standing together"
           className='_image'
+          imgClassName='img_props'
           quality={60}
           webpOptions={{quality:90}}
           placeholder="blurred"
@@ -79,6 +80,7 @@ const ChildrensChoir = () => {
             quality={60}
             webpOptions={{quality:100}}
             className="img"
+            imgClassName='img_props'
             placeholder='blurred'
           />
         </div>
@@ -92,6 +94,7 @@ const ChildrensChoir = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
           />
         </div>
           
@@ -104,6 +107,7 @@ const ChildrensChoir = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
           />
         </div>
           

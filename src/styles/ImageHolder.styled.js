@@ -31,6 +31,9 @@ export const MusicMinistryImages = styled.div`
     justify-self:center;
     }
   }
+  .img_props{
+    border-radius:10px;
+  }
 ${props => props.KeyboardBackground && css`
   grid-row:;
   grid-column:;

@@ -58,6 +58,7 @@ const HandbellChoir = () => {
           src="../../../images/Music-Ministry/Handbell-Choir.jpg"
           alt="Chancel Choir standing together"
           className='group_image'
+          imgClassName='img_props'
           quality={60}
           webpOptions={{quality:90}}
         />
@@ -78,6 +79,7 @@ const HandbellChoir = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
             alt=""
           />
         </div>
@@ -91,6 +93,7 @@ const HandbellChoir = () => {
             quality={60}
             webpOptions={{quality:80}}
             className="img"
+            imgClassName='img_props'
             placeholder='blurred'
             alt=""
           />
@@ -105,6 +108,7 @@ const HandbellChoir = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
             alt=""
           />
         </div>

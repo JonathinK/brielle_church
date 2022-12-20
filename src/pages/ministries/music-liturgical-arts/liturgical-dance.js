@@ -58,6 +58,7 @@ const LiturgicalDance = () => {
           src="../../../images/Music-Ministry/Liturgical-Dance.jpg"
           alt="Chancel Choir standing together"
           className='_image'
+          imgClassName='img_props'
           quality={60}
           webpOptions={{quality:90}}
         />
@@ -78,6 +79,7 @@ const LiturgicalDance = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
           />
         </div>
           
@@ -90,6 +92,7 @@ const LiturgicalDance = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
           />
         </div>
           
@@ -102,6 +105,7 @@ const LiturgicalDance = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
           />
         </div>
           

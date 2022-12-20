@@ -22,6 +22,7 @@ export const Groups = () => {
               quality={60}
               webpOptions={'quality:90'}
               className="img"
+              imgClassName='img_props'
             />
           </InternalLink>
           <div className='group_title'><SubTitle>Chancel Choir</SubTitle></div>
@@ -39,6 +40,7 @@ export const Groups = () => {
               quality={60}
               webpOptions={'quality:90'}
               className="img"
+              imgClassName='img_props'
             />
           </InternalLink>
           <div className='group_title'><SubTitle>Handbell Choir</SubTitle></div>
@@ -56,6 +58,7 @@ export const Groups = () => {
               quality={60}
               webpOptions={'quality:90'}
               className="img"
+              imgClassName='img_props'
             />
           </InternalLink>
           <div className='group_title'><SubTitle>Praise Ensemble</SubTitle></div>
@@ -73,6 +76,7 @@ export const Groups = () => {
               quality={60}
               webpOptions={'quality:90'}
               className="img"
+              imgClassName='img_props'
             />
           </InternalLink>
           <div className='group_title'><SubTitle>Childrens Choir</SubTitle></div>
@@ -90,6 +94,7 @@ export const Groups = () => {
               quality={60}
               webpOptions={'quality:90'}
               className="img"
+              imgClassName='img_props'
             />
           </InternalLink>
           <div className='group_title'><SubTitle>Liturgical Dance</SubTitle></div>
@@ -107,6 +112,7 @@ export const Groups = () => {
               quality={60}
               webpOptions={'quality:90'}
               className="img"
+              imgClassName='img_props'
             />
           </InternalLink>
           <div className='group_title'><SubTitle>Middleshool Leadership</SubTitle></div>

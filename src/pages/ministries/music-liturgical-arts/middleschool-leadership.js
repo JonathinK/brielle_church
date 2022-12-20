@@ -60,6 +60,7 @@ const MiddleSchoolLeadership = () => {
           src="../../../images/Music-Ministry/Middle-School.jpg"
           alt="Middle schoolers signing with children"
           className='group_image'
+          imgClassName='img_props'
           quality={60}
           webpOptions={{quality:90}}
         />
@@ -79,10 +80,10 @@ const MiddleSchoolLeadership = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
             alt=""
           />
-        </div>
-          
+        </div> 
         </MusicMinistryImages>
         <MusicMinistryImages GroupsImage>
         <div className='overflow_container'>
@@ -92,6 +93,7 @@ const MiddleSchoolLeadership = () => {
             quality={60}
             webpOptions={{quality:80}}
             className="img"
+            imgClassName='img_props'
             alt=""
           />
         </div>
@@ -105,6 +107,7 @@ const MiddleSchoolLeadership = () => {
             quality={60}
             webpOptions={{quality:90}}
             className="img"
+            imgClassName='img_props'
             alt=""
           />
         </div>
