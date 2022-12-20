@@ -17,6 +17,7 @@ export const MusicMinistryImages = styled.div`
   &.imageproperties{
     height:clamp(260px,25vw,501px);
     width:90%;
+    border-radius:10px;
   
     @media ${({theme}) => theme.breakpoints.tablet}{
     height:clamp(300px,50vw,500px);
@@ -133,6 +134,7 @@ ${props => props.GroupPageImage && css`
     position:absolute;
     width:100%;
     height:100%;
+    border-radius:10px;
   }
 
   @media ${({theme}) => theme.breakpoints.tablet}{
@@ -165,6 +167,7 @@ ${props => props.GroupsImage && css`
       width:100%;
       height:100%;
       transition:all .5s ease-in-out;
+      border-radius:10px;
     }
     :hover .img{
       filter:grayscale(100%) blur(1px);
