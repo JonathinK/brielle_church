@@ -11,6 +11,7 @@ export const MusicMinistryImages = styled.div`
     width:100%;
     height:100%;
     border-radius:10px;
+    border-collapse:separate;
     box-shadow: 0px 20px 15px -5px rgba(0,0,0,.2);  
   }
 
@@ -18,6 +19,7 @@ export const MusicMinistryImages = styled.div`
     height:clamp(260px,25vw,501px);
     width:90%;
     border-radius:10px;
+    border-collapse:separate;
   
     @media ${({theme}) => theme.breakpoints.tablet}{
     height:clamp(300px,50vw,500px);
@@ -54,6 +56,7 @@ ${props => props.MusicDirector && css`
   grid-row:1/2;
   position:relative;
   border-radius:10px;
+  border-collapse:separate;
   
   :before{
     content:'';
@@ -88,6 +91,7 @@ ${props => props.WhatToExpect && css`
   grid-row:1/2;
   grid-column:3/7;
   border-radius:10px;
+  border-collapse:separate;
   :before{
     content:'';
     position:absolute;
@@ -150,6 +154,7 @@ ${props => props.GroupsImage && css`
   max-width:100%;
   min-width:250px;
   border-radius:10px;
+  border-collapse:separate;
   box-shadow:0px 20px 20px -10px rgba(0,0,0,.3);
   transition:all .5s ease-in-out;
   background:${({theme}) => theme.colors.accent};
@@ -157,6 +162,7 @@ ${props => props.GroupsImage && css`
   .overflow_container{
     overflow:hidden;
     border-radius:10px;
+    border-collapse:separate;
     position:relative;
     aspect-ratio:4/3;
     width:100%;
@@ -168,6 +174,9 @@ ${props => props.GroupsImage && css`
       height:100%;
       transition:all .5s ease-in-out;
       border-radius:10px;
+      border-collapse:separate;
+      overflow:hidden;
+      transform:scale(1.03);
     }
     :hover .img{
       filter:grayscale(100%) blur(1px);
