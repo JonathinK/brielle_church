@@ -135,7 +135,7 @@ const ChildrensChoir = () => {
           </li>
         </ul>        
       </ExpectationInfo>
-      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" RotateX>
+      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" MusicNotesSvg RotateX>
         <MusicSvg/>
       </SvgWrapper>
       </Section>

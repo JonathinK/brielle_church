@@ -23,7 +23,7 @@ export const SvgWrapper = styled.div`
     transform:rotateY(180deg);
   `}
   ${props => props.RotateX && css`
-    transform:rotateX(180deg) translateY(1px);
+    transform:rotateX(180deg) translateY(2px);
   `}
   ${props => props.Flip && css`
     transform:rotateZ(180deg) translateY(1px);

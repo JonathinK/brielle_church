@@ -53,6 +53,7 @@ export const ExpectationInfo = styled(MusicGroupsContainer)`
     flex-flow:column nowrap;
     justify-content:center;
     align-items:start;
+    text-align:justify;
     gap:1rem 0;
     padding:1rem 3rem;
     color:black;

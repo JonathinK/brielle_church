@@ -130,14 +130,14 @@ const HandbellChoir = () => {
             <b><i>REHEARSE</i></b> Our teen/adult Handbell Choir practices weekly 6pm to 7:15pm where we learn together, ring and laugh always. 
           </li>
           <li id="Meet">
-            <b><i>MEET</i></b> On Handbell Sunday ringers arrive by 8:45AM to warm up for our 10AM liturgy. 
+            <b><i>MEET</i></b> On Handbell Sunday ringers arrive by 8:45am to warm up for our 10am liturgy. 
           </li>
           <li id="Blessing">
             <b><i>BLESSING</i></b> Playing handbells is very peaceful as most ringers will share with you. The vibration of ringing encourages relaxation, as well as memory and coordination skills. The focus is on just 1 or 2 bells as a beginner. Ringing is a bucket list item,  everyone should ring at least once... heavenly!!
           </li>
         </ul>        
       </ExpectationInfo>
-      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" RotateX>
+      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" MusicNotesSvg RotateX>
         <MusicSvg/>
       </SvgWrapper>
       </Section>

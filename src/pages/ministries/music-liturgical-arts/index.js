@@ -137,7 +137,7 @@ const MusicPage = () => {
         <MusicSvg/>
       </SvgWrapper>
       <Groups/>
-      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" RotateX>
+      <SvgWrapper R="3/4" C="1/15" TR="3/4" TC="1/11" MC="1/7" MR="3/4" MusicNotesSvg RotateX>
         <MusicSvg/>
       </SvgWrapper>
     </Section>
@@ -198,9 +198,9 @@ const MusicPage = () => {
           <Verse>
           <q>It is well, it is well with my soul</q>
           <br/>
-          <q>Praise the lord, praise the Lord, O my soul!
+          <q>Praise the Lord, Praise the Lord, O my soul!
           <br/>
-          E-ven so - it is well with my soul.
+          Even so - it is well with my soul.
           </q>
           </Verse>
       </VerseContainer>
