@@ -148,7 +148,7 @@ const MusicPage = () => {
     </TextWrapper>
       <TextWrapper R="2/3" C="2/7" TC="2/10" TR="3/4" MC="2/6" MR="3/4" LeftAlignWrapper JS="center" AS="center">
         <Headline>Bringing joy to the community through music</Headline>
-        <Body>We are a very active group with the community and other local churches. We are proud to say we were featured in the Coast Star for our Battle Hymn and Hymn Sing events we hosted with the Manasquan Church. We are always open to the community. Music is a passion that we all can share in the eyes of God.</Body>
+        <Body>We are a very active ministry at The Church In Brielle as well as within the community and other local churches including Manasquan Ministerium. We are blessed to say we were featured in the Coast Star for our outdoor Battle Hymn sing during covid when many weren’t able to sing together, God paved a way.  Also we host annual Hymn Sing events and caroling. We are always open to the community and welcome all to join us. Music is a passion we all can share in the eyes of God and for His glory.</Body>
       </TextWrapper>
       <IframeContainer R="2/3" C="8/14" TR="2/3" TC="2/10" MC="2/6" MR="2/3" >
       <iframe

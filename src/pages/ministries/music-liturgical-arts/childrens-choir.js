@@ -69,7 +69,7 @@ const ChildrensChoir = () => {
       <Section id="About_Our_Group">
       <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
         <Headline AltColor>About Our Choir</Headline>
-        <Body>A fun, active group of children ages 3 through 5 who love to sing or play percussion and handchimes all to glorify God.</Body>
+        <Body>A fun, active group of children ages 3 through 5th grade who love to sing or play percussion and handchimes all to glorify God.</Body>
       </TextWrapper>
       <GroupsImagesContainer>
         <MusicMinistryImages GroupsImage>
