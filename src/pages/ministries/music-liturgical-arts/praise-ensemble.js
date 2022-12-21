@@ -68,7 +68,7 @@ const PraiseEnsemble = () => {
       </Section>
       <Section id="About_Our_Group">
       <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
-        <Headline AltColor>About Our Group</Headline>
+        <Headline AltColor>About Our Ensemble</Headline>
         <Body>Do you play an instrument or like more upbeat music? We welcome any instrumentalist, high school or adult, to join us - guitar, bass, percussion, flute, violin, trumpet, trombone, clarinet/oboe, saxophone etc. 
         <br/>
         Please consider sharing your God given gifts!</Body>

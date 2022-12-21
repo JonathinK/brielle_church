@@ -68,7 +68,7 @@ const MiddleSchoolLeadership = () => {
       </Section>
       <Section id="About_Our_Group">
       <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
-        <Headline AltColor>About our Choir Leaders</Headline>
+        <Headline AltColor>About Our Choir Leaders</Headline>
         <Body>Join us with many opportunities to assist with the children's choir at rehearsals and liturgies as well as singing lead solos and other music with children's choir, VBS and/or Praise Ensemble.</Body>
       </TextWrapper>
       <GroupsImagesContainer>
@@ -123,7 +123,7 @@ const MiddleSchoolLeadership = () => {
         <Headline>What to expect</Headline>
         <ul>
           <li id="Sing">
-            <b><i>SING</i></b> Our middle schoolers help with children’s choir on the 1st and 3rd Sundays of each month. They are also invited to sing with the Praise Ensemble each Sunday. They also lead songs with high energy videos and music during Vacation Bible School week in summer. 
+            <b><i>SING</i></b> Our middle schoolers help sing with children’s choir on the 1st and 3rd Sundays of each month and rehearsals. They are also invited to sing with the Praise Ensemble each Sunday where they often sing solos. They lead songs with high energy videos and a variety of music during Vacation Bible School week in summer. 
           </li>
           <li id="Rehearse">
             <b><i>REHEARSE</i></b> Our awesome leaders rehearse with the children’s choir on Thursdays 5:15pm - 6:00pm teaching them new songs, how to use the different instruments and practice solos.

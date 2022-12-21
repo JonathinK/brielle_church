@@ -60,7 +60,11 @@ export const TextWrapper = styled.div`
       &.increased_padding{
         padding:5rem 0;
       }
-
+      &.justify{
+        p{
+          text-align:justify;
+        }
+      }
   `}
  
 

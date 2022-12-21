@@ -69,7 +69,7 @@ const ChildrensChoir = () => {
       <Section id="About_Our_Group">
       <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
         <Headline AltColor>About Our Choir</Headline>
-        <Body>A fun, active group of children ages 3rd through - 5th grade who love to sing or play percussion and handchimes all to glorify God.</Body>
+        <Body>A fun, active group of children ages 3 through 5 who love to sing or play percussion and handchimes all to glorify God.</Body>
       </TextWrapper>
       <GroupsImagesContainer>
         <MusicMinistryImages GroupsImage>
@@ -78,7 +78,7 @@ const ChildrensChoir = () => {
             src="../../../images/Music-Ministry/Childrens-Choir-1.jpg"
             layout="fullWidth"
             quality={60}
-            webpOptions={{quality:100}}
+            webpOptions={{quality:90}}
             className="img"
             imgClassName='img_props'
             placeholder='blurred'
@@ -122,7 +122,7 @@ const ChildrensChoir = () => {
         <Headline>What to expect</Headline>
         <ul>
           <li id="Sing">
-            <b><i>SING</i></b> The Children sing/play during the service on the 1st Sunday of the month ( Communion Sunday) and the 3rd Sunday of the month before they head to Children’s Church. The Children also sing for special occasions such as Christmas Eve and Easter Services.
+            <b><i>SING</i></b> The Children sing/play during the service on the 1st Sunday of the month (Communion Sunday) and the 3rd Sunday of the month before they head to Children’s Church. The Children also sing for special occasions such as Christmas Eve and Easter Services.
           </li>
           <li id="Rehearse">
             <b><i>REHEARSE</i></b> Our precious children rehearse on Thursdays 5:15pm - 6:00pm. We learn new songs, singing and using instruments.   

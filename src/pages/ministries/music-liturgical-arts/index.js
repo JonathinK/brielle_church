@@ -98,7 +98,7 @@ const MusicPage = () => {
       </SvgWrapper>
     </Section>
     <Section SectionPadding id="Music_Director_Section">
-    <TextWrapper LeftAlignWrapper C="3/8" R="1/2" TC="3/9" TR="2/3" MC="2/6" MR="2/3" JS="center" AS="center">
+    <TextWrapper LeftAlignWrapper className='justify' C="3/8" R="1/2" TC="3/9" TR="2/3" MC="2/6" MR="2/3" JS="center" AS="center">
       <Headline AltColor>Giving Through Her Gifts</Headline>
       <Body>Our Director of Music and Liturgical Arts, Dawne, has created a wonderful, safe, and joy-filled environment for everyone that’s involved or interested in our programs. Our music ministry is a diverse group of ages, background, experience and musical knowledge as young as 3 years old through the young at heart in their late 80s. Our musical door welcomes everyone! Experience or music reading not required, just a love of music and Jesus.
       </Body>
@@ -116,9 +116,9 @@ const MusicPage = () => {
     </MusicMinistryImages> 
     </Section>
     <Section SectionPadding id="What_To_Expect_Section">
-      <TextWrapper LeftAlignWrapper C="8/13" R="1/2" TC="3/9" TR="2/3" MC="2/6" MR="2/3" JS="center" AS="center">
+      <TextWrapper LeftAlignWrapper className='justify' C="8/13" R="1/2" TC="3/9" TR="2/3" MC="2/6" MR="2/3" JS="center" AS="center">
         <Headline AltColor> What To Expect?</Headline>
-        <Body>Each choir rehearsal encompasses the art of learning some music theory <b>( our roadmap )</b>, making beautiful vocal harmony <b>( our goal )</b> while sharing laughter and love with each other <b>( the best part! )</b>. We are blessed to have our choirs share their gifts at our liturgies regularly.  </Body>
+        <Body>Each choir rehearsal encompasses the art of learning some music theory <b><q>our roadmap</q> </b>, making beautiful vocal harmony <b><q>our goal</q></b> while sharing laughter and love with each other <b><q> the best part!</q></b>. We are blessed to have our choirs share their gifts at our liturgies regularly.  </Body>
       </TextWrapper>
       <MusicMinistryImages WhatToExpect className='imageproperties'> 
         <StaticImage
