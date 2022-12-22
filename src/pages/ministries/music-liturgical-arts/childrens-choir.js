@@ -128,7 +128,7 @@ const ChildrensChoir = () => {
             <b><i>REHEARSE</i></b> Our precious children rehearse on Thursdays 5:15pm - 6:00pm. We learn new songs, singing and using instruments.   
           </li>
           <li id="Meet">
-            <b><i>MEET</i></b> Our precious children rehearse on Thursdays 5:15pm - 6:00pm. We learn new songs, singing and using instruments.   
+            <b><i>MEET</i></b> The children meet on 1st and 3rd Sundays at 9:30am to warm-up their voices and practice for the service.   
           </li>
           <li id="Blessing">
             <b><i>BLESSING</i></b> The children’s choir share our love for each other and the Lord by singing together, practicing with rhythmic instruments, and learning hand chimes! They sing texts that uplift, encourage and assist in their faith development.  Singing for their church family also promotes confidence in public settings and their ability to express themselves more fully.
