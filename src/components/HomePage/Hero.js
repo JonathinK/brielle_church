@@ -5,8 +5,10 @@ import {
   OutsideLink, 
   TextWrapper, 
   SvgWrapper, 
-  Headline } from "../../styles";
+  Headline, 
+  Body} from "../../styles";
 import { HeroSection, HeroImage } from "../../styles/HeroSection";
+import { Subtitle } from "../../styles/pagehero";
 import HeroWave from "../../Svg/assets/Alt-Hero-Curve.svg"
 import CenterSvg from "../../Svg/assets/Homepage-Hero-Svg.svg";
 
@@ -42,7 +44,13 @@ export const Hero = () => {
         <CenterSvg/>
       </SvgWrapper> 
         <Headline WhiteColor>Community | Family | God</Headline>
-        <Button WhiteButton><OutsideLink href="https://www.facebook.com/Thechurchinbrielle/events/" ButtonPadding>Facebook Live</OutsideLink></Button>
+        <Subtitle>Join us for 2 Christmas Eve services on Saturday, December 24th. 
+        <br/>
+        6:15PM First Service
+        <br/>
+        7:15PM Second Service
+        </Subtitle>
+        <Button WhiteButton><OutsideLink href="mailto:pastorlou@churchinbrielle.org" ButtonPadding>Email for more information</OutsideLink></Button>
       </TextWrapper>
       <SvgWrapper
         R="3/4"

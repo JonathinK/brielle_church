@@ -146,7 +146,7 @@ const MusicPage = () => {
     <SubHeadline className='padding'>We look forward to meeting you, sharing beautiful music together to inspire others and welcoming you into our wonderful choir family!
     </SubHeadline>
     </TextWrapper>
-      <TextWrapper R="2/3" C="2/7" TC="2/10" TR="3/4" MC="2/6" MR="3/4" LeftAlignWrapper JS="center" AS="center">
+      <TextWrapper R="2/3" C="2/7" TC="2/10" TR="3/4" MC="2/6" MR="3/4" LeftAlignWrapper className='justify' JS="center" AS="center">
         <Headline>Bringing joy to the community through music</Headline>
         <Body>We are a very active ministry at The Church In Brielle as well as within the community and other local churches including Manasquan Ministerium. We are blessed to say we were featured in the Coast Star for our outdoor Battle Hymn sing during covid when many weren’t able to sing together, God paved a way.  Also we host annual Hymn Sing events and caroling. We are always open to the community and welcome all to join us. Music is a passion we all can share in the eyes of God and for His glory.</Body>
       </TextWrapper>

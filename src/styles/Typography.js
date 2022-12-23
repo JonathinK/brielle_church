@@ -165,14 +165,16 @@ export const OutsideLink = styled.a`
   text-decoration:none;
   color:inherit;
   font-size:inherit;
-  padding:2em 3em;
+  padding:2em 2em;
   
   ${props => props.ButtonPadding && css`
      display:block;
   `}
+  
   ${props => props.TextLink && css`
     color:${({theme}) => theme.colors.header};
     padding:0;
+    
     @media ${({theme}) => theme.breakpoints.hover}{
       :hover{
       color:blue;
