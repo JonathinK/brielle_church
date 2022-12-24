@@ -6,7 +6,8 @@ import {
   TextWrapper,
   Body, 
   InternalLink,
-  Button } from "../../styles";
+  Button, 
+  OutsideLink} from "../../styles";
 
 export const ServiceTimes = () => {
   return(
@@ -20,7 +21,7 @@ export const ServiceTimes = () => {
       >
         <Headline>We are excited to meet you</Headline>
         <SubHeadline>Join us Sundays at 10AM</SubHeadline>
-        <Body>In-Person | Facebook Live</Body>
+        <Body>In-Person | <OutsideLink TextLink href="https://m.facebook.com/Thechurchinbrielle/?mibextid=LQQJ4d">Facebook Live</OutsideLink></Body>
         <Button><InternalLink to="/im-new/worship-service" ButtonPadding>Worship-Service</InternalLink></Button>
       </TextWrapper>
     </Section>

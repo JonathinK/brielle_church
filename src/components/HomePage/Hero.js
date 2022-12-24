@@ -48,9 +48,13 @@ export const Hero = () => {
         <br/>
         6:15PM First Service
         <br/>
-        7:15PM Second Service
+        7:45PM Second Service
         </Subtitle>
-        <Button WhiteButton><OutsideLink href="mailto:pastorlou@churchinbrielle.org" ButtonPadding>Email for more information</OutsideLink></Button>
+        <Button WhiteButton>
+        <OutsideLink href="mailto:pastorlou@churchinbrielle.org" ButtonPadding>
+        Email for more information
+        </OutsideLink>
+        </Button>
       </TextWrapper>
       <SvgWrapper
         R="3/4"
