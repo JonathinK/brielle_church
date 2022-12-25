@@ -44,17 +44,7 @@ export const Hero = () => {
         <CenterSvg/>
       </SvgWrapper> 
         <Headline WhiteColor>Community | Family | God</Headline>
-        <Subtitle>Join us for 2 Christmas Eve services on Saturday, December 24th. 
-        <br/>
-        6:15PM First Service
-        <br/>
-        7:45PM Second Service
-        </Subtitle>
-        <Button WhiteButton>
-        <OutsideLink href="mailto:pastorlou@churchinbrielle.org" ButtonPadding>
-        Email for more information
-        </OutsideLink>
-        </Button>
+        <Subtitle>Have a Merry Christmas!</Subtitle>
       </TextWrapper>
       <SvgWrapper
         R="3/4"
