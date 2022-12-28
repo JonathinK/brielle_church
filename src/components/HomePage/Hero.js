@@ -44,7 +44,13 @@ export const Hero = () => {
         <CenterSvg/>
       </SvgWrapper> 
         <Headline WhiteColor>Community | Family | God</Headline>
-        <Subtitle>Have a Merry Christmas!</Subtitle>
+        <Subtitle>
+        Have a Merry Christmas
+      <br/>
+      &
+      <br/>
+      May God's Blessings be with you in the New Year!
+        </Subtitle>
       </TextWrapper>
       <SvgWrapper
         R="3/4"
