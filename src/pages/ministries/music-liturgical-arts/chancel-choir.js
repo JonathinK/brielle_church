@@ -69,7 +69,7 @@ const ChancelChoir = () => {
       <Section id="About_Our_Group">
       <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
         <Headline AltColor>About Our Choir</Headline>
-        <Body>A welcoming group of teen and adult singers who share a love of music which glorifies God and supports the congregation in prayer and praise.</Body>
+        <Body>A welcoming group of teen and adult singers who share a love of music which glorifies God, and supports the congregation in prayer and praise.</Body>
       </TextWrapper>
       <GroupsImagesContainer>
         <MusicMinistryImages GroupsImage>
@@ -121,21 +121,23 @@ const ChancelChoir = () => {
         <Headline>What to expect</Headline>
         <ul>
           <li id="Sing">
-            <b><i>SING</i></b> each Sunday & prepare special anthems for the 2nd & the 4th Sundays of each month throughout the year. We also sing our annual Christmas Cantata (a community favorite!), a Tenebrae candlelight service during Lent, and special services for Christmas and Easter. We are community involved and also share our voices in community events throughout the year. 
+            <b><i>SING</i></b> each Sunday & prepare special anthems for the 2nd & the 4th Sundays of each month throughout the year. We also sing our annual Christmas Cantata (a community favorite!), a Tenebrae candlelight service during Lent, and special services for Christmas and Easter. We are community involved, and we share our voices in community events throughout the year. 
           </li>
           <li id="Rehearse">
-            <b><i>REHEARSE</i></b> Thursdays 7:15pm - 8:30pm. Each rehearsal...
+            <b><i>REHEARSE</i></b> Thursdays 7:15pm - 8:30pm. 
             <br/>
-            <span> *Encompasses the art of learning some music theory-our roadmap.</span>
+            Each rehearsal encompasses:
             <br/>
-            <span>*Making beautiful vocal harmony -our goal.</span>
+            <span> *the art of learning some music theory - <q>our roadmap</q>.</span>
             <br/>
-            <span>* Sharing laughter and love with each other-the best part. </span>
+            <span>*making beautiful vocal harmony - <q>our goal</q>.</span>
             <br/>
-            <span>**Reading Music is not necessary!  Voice parts can also be recorded to practice at home.</span>
+            <span>*sharing laughter and love - <q>the best part</q>. </span>
+            <br/>
+            <span><b><i>**reading music is not necessary!  Voice parts can also be recorded to practice at home.</i></b></span>
           </li>
           <li id="Meet">
-            <b><i>MEET</i></b> All members meet at 9:15AM on Sunday for warm-up & review for 10AM liturgy.
+            <b><i>MEET</i></b> All members meet at 9:15am on Sunday for warm-up & review for 10am liturgy.
           </li>
           <li id="Blessing">
             <b><i>BLESSING</i></b> Grow in friendship, spirituality, and fellowship.

@@ -32,6 +32,7 @@ export const Button = styled.button`
   ${props => props.WhiteButton && css`
     background:${({theme}) => theme.colors.body};
     color:${({theme}) => theme.colors.header};
+    padding:1.4rem 1.4rem;
     :hover{
       box-shadow: 0px 20px 15px -10px rgba(155,155,155,.5);
     }

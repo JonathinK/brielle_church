@@ -68,7 +68,10 @@ const HandbellChoir = () => {
       <Section id="About_Our_Group">
       <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
         <Headline AltColor>About Our Ringers</Headline>
-        <Body>A mixed group of teen and adult ringers with a varied range of age & experience from beginner to over 30 years ringing.</Body>
+        <Body>
+          A mixed group of teen and adult ringers, ranging in age and experience from beginner to over
+          30 years ringing!
+        </Body>
       </TextWrapper>
       <GroupsImagesContainer>
         <MusicMinistryImages GroupsImage>
@@ -133,7 +136,8 @@ const HandbellChoir = () => {
             <b><i>MEET</i></b> On Handbell Sunday ringers arrive by 8:45am to warm up for our 10am liturgy. 
           </li>
           <li id="Blessing">
-            <b><i>BLESSING</i></b> Playing handbells is very peaceful as most ringers will share with you. The vibration of ringing encourages relaxation, as well as memory and coordination skills. The focus is on just 1 or 2 bells as a beginner. Ringing is a bucket list item,  everyone should ring at least once... heavenly!!
+            <b><i>BLESSING</i></b> Playing handbells is very peaceful; the vibration of ringing encourages relaxation. Ringing also
+                enhances memory and coordination skills. As a beginner, the focus is just 1 or 2 bells. Ringing is a bucket list item,  everyone should ring at least once... heavenly!!
           </li>
         </ul>        
       </ExpectationInfo>

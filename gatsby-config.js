@@ -1,8 +1,27 @@
+/* require("dotenv").config({
+  path:`.env`,
+});
+
+let contentfulOptions= {}
+if (process.env.CONTEXT === "production") {
+  contentfulOptions = {
+    spaceId: process.env.CONTENTFUL_SPACE,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    host: process.env.CONTENTFUL_HOST,
+  }
+} else{
+  contentfulOptions = {
+    spaceId:process.env.CONTENTFUL_SPACE,
+    accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN,
+    host: process.env.CONTENTFUL_PREVIEW_HOST,
+  }
+} */
+
 module.exports = {
   siteMetadata: {
     title: `The Church In Brielle`,
     description: `We are an open and inclusive church. We welcome all from our communities as we interpret the word of god, while creating a center of spiritual wellness.`,
-    author: `@Diamond Digital Services`,
+    author: `Diamond Digital Services`,
     siteUrl: `https://www.thechurchinbrielle.org`,
   },
   plugins: [
@@ -59,5 +78,9 @@ module.exports = {
         icon: `src/images/Logo.png`, // This path is relative to the root of the site.
       },
     },
+    /* {
+      resolve: `gatsby-source-contentful`,
+      options: contentfulOptions,
+    }, */
   ],
 }

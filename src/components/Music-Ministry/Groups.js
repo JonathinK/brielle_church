@@ -102,7 +102,7 @@ export const Groups = () => {
         </MusicMinistryImages>
         <MusicMinistryImages GroupsImage id="Leadership">
         <div className='overflow_container'>
-          <InternalLink to="middleschool-leadership">
+          <InternalLink to="middle-school-leadership">
             <StaticImage
               src='../../images/Music-Ministry/Middle-School.jpg'
               alt='Middle School Leadership helping young new singers'

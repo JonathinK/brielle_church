@@ -9,10 +9,7 @@ import HeroSvg from "../../../Svg/assets/Alt-Hero-Curve.svg";
 import StaffLines from "../../../Svg/assets/StaffLines.svg";
 import MusicSvg from "../../../Svg/assets/Music-Svg.svg";
 
-
-
-
-const MiddleSchoolLeadership = () => {
+const MiddleSchoolLeadership = () => { 
   return(
     <Layout>
       <PageHeroContainer>
@@ -24,7 +21,7 @@ const MiddleSchoolLeadership = () => {
           />
         </Hero>
         <PageTitleWrapper>
-          <PageTitle>Middleschool Leadership</PageTitle>
+          <PageTitle>Middle School Leadership</PageTitle>
         </PageTitleWrapper>
         <HeroSvgContainer>
           <HeroSvg/>
@@ -69,7 +66,7 @@ const MiddleSchoolLeadership = () => {
       <Section id="About_Our_Group">
       <TextWrapper CenteredWrapper C="5/11" R="1/2" TC="3/9" MC="2/6" >
         <Headline AltColor>About Our Choir Leaders</Headline>
-        <Body>Join us with many opportunities to assist with the children's choir at rehearsals and liturgies as well as singing lead solos and other music with children's choir, VBS and/or Praise Ensemble.</Body>
+        <Body>Join us with many opportunities to assist with the children's choir at rehearsals and liturgies, as well as singing lead solos and other music with children's choir, VBS and/or Praise Ensemble.</Body>
       </TextWrapper>
       <GroupsImagesContainer>
         <MusicMinistryImages GroupsImage>
@@ -123,16 +120,16 @@ const MiddleSchoolLeadership = () => {
         <Headline>What to expect</Headline>
         <ul>
           <li id="Sing">
-            <b><i>SING</i></b> Our middle schoolers help sing with children’s choir on the 1st and 3rd Sundays of each month and rehearsals. They are also invited to sing with the Praise Ensemble each Sunday where they often sing solos. They lead songs with high energy videos and a variety of music during Vacation Bible School week in summer. 
+            <b><i>SING</i></b> Our middle schoolers help sing with children’s choir on the 1st and 3rd Sundays of each month, and at rehearsals. They are also invited to sing with the Praise Ensemble each Sunday where they often sing solos. They lead songs with high energy videos and a variety of music during Vacation Bible School week in summer. 
           </li>
           <li id="Rehearse">
-            <b><i>REHEARSE</i></b> Our awesome leaders rehearse with the children’s choir on Thursdays 5:15pm - 6:00pm teaching them new songs, how to use the different instruments and practice solos.
+            <b><i>REHEARSE</i></b> Our awesome leaders rehearse with the children’s choir on Thursdays 5:15pm - 6:00pm, teaching them new songs and different instruments, and practicing solos.
           </li>
           <li id="Meet">
-            <b><i>MEET</i></b> The middle schoolers meet children on 1st and 3rd Sundays at 9:30am to warm-up their voices and help them practice for the service.  They also sing their solos with Praise Ensemble. 
+            <b><i>MEET</i></b> We meet children on 1st and 3rd Sundays at 9:30am to warm-up their voices and help them practice for the service. They also sing their solos with Praise Ensemble. 
           </li>
           <li id="Blessing">
-            <b><i>BLESSING</i></b> 6th through 8th graders are terrific leaders and need opportunities to practice this much needed community skill.  They earn service hours and develop confidence in front of their peers, bond with each other.  They learn the art of public performance intricacies, microphone use, and vocal projection all while sharing their spirit with the community both young and old, and deepening their faith journey.  Watching them bond with each other and project new courage warms your heart!
+            <b><i>BLESSING</i></b> 6th through 8th graders are terrific leaders and need opportunities to practice this much needed community skill. They earn service hours and develop confidence in front of their peers, and bond with each other. They learn the intricacies of public performance, microphone use, and vocal projection, all while sharing their spirit with the community both young and old, and deepening their faith journey. Watching them bond with each other and project new courage warms your heart!
           </li>
         </ul>        
       </ExpectationInfo>

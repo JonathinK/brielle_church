@@ -100,7 +100,7 @@ const MusicPage = () => {
     <Section SectionPadding id="Music_Director_Section">
     <TextWrapper LeftAlignWrapper className='justify' C="3/8" R="1/2" TC="3/9" TR="2/3" MC="2/6" MR="2/3" JS="center" AS="center">
       <Headline AltColor>Giving Through Her Gifts</Headline>
-      <Body>Our Director of Music and Liturgical Arts, Dawne, has created a wonderful, safe, and joy-filled environment for everyone that’s involved or interested in our programs. Our music ministry is a diverse group of ages, background, experience and musical knowledge as young as 3 years old through the young at heart in their late 80s. Our musical door welcomes everyone! Experience or music reading not required, just a love of music and Jesus.
+      <Body>Our Director of Music and Liturgical Arts, Dawne, has created a wonderful, safe, and joy-filled environment for everyone who's involved or interested in our programs. Our Music Ministry reflects a diverse group of ages, backgrounds, experiences and musical knowledge. We range in age from 3 years old to the young at heart in their late-80’s! Our musical door welcomes everyone! Experience or music reading not required, just a love of music and Jesus.
       </Body>
     </TextWrapper>
     <MusicMinistryImages MusicDirector className='imageproperties'>
@@ -118,7 +118,7 @@ const MusicPage = () => {
     <Section SectionPadding id="What_To_Expect_Section">
       <TextWrapper LeftAlignWrapper className='justify' C="8/13" R="1/2" TC="3/9" TR="2/3" MC="2/6" MR="2/3" JS="center" AS="center">
         <Headline AltColor> What To Expect?</Headline>
-        <Body>Each choir rehearsal encompasses the art of learning some music theory <b><q>our roadmap</q> </b>, making beautiful vocal harmony <b><q>our goal</q></b> while sharing laughter and love with each other <b><q> the best part!</q></b>. We are blessed to have our choirs share their gifts at our liturgies regularly.  </Body>
+        <Body>Each choir rehearsal encompasses the art of learning some music theory <b><q>our roadmap</q></b>, and making beautiful vocal harmony <b><q>our goal</q></b>, while sharing laughter and love with each other <b><q> the best part!</q></b>. We are blessed to have our choirs share their gifts at our liturgies regularly.  </Body>
       </TextWrapper>
       <MusicMinistryImages WhatToExpect className='imageproperties'> 
         <StaticImage
@@ -143,12 +143,12 @@ const MusicPage = () => {
     </Section>
     <Section Section Padding id="Bringing_Joy">
     <TextWrapper R="1/2" C="3/13" TR="1/2" TC="2/10" MC="2/6" MR="1/2" CenteredWrapper>
-    <SubHeadline className='padding'>We look forward to meeting you, sharing beautiful music together to inspire others and welcoming you into our wonderful choir family!
+    <SubHeadline className='padding'>We look forward to meeting you, sharing beautiful music together to inspire others, and welcoming you into our wonderful choir family!
     </SubHeadline>
     </TextWrapper>
       <TextWrapper R="2/3" C="2/7" TC="2/10" TR="3/4" MC="2/6" MR="3/4" LeftAlignWrapper className='justify' JS="center" AS="center">
         <Headline>Bringing joy to the community through music</Headline>
-        <Body>We are a very active ministry at The Church In Brielle as well as within the community and other local churches including Manasquan Ministerium. We are blessed to say we were featured in the Coast Star for our outdoor Battle Hymn sing during covid when many weren’t able to sing together, God paved a way.  Also we host annual Hymn Sing events and caroling. We are always open to the community and welcome all to join us. Music is a passion we all can share in the eyes of God and for His glory.</Body>
+        <Body>We are a very active ministry at The Church In Brielle, as well as within the community and other local churches, including Manasquan Ministerium. We are blessed to say we were featured in the Coast Star for our outdoor Battle Hymn sing during Covid when many weren’t able to sing together. God paved a way! Also we host annual Hymn Sing events and caroling. We are always open to the community and welcome all to join us. Music is a passion we all can share in the eyes of God and for His glory.</Body>
       </TextWrapper>
       <IframeContainer R="2/3" C="8/14" TR="2/3" TC="2/10" MC="2/6" MR="2/3" >
       <iframe

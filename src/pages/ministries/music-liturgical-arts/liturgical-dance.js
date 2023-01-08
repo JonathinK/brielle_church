@@ -120,7 +120,7 @@ const LiturgicalDance = () => {
         <Headline>What to expect</Headline>
         <ul>
           <li id="Sing">
-            <b><i>SING</i></b> The liturgical dance team present their choreographed dances to the gospel quarterly. 
+            <b><i>DANCE</i></b> The liturgical dance team present their dances, choreographed to the Gospel, quarterly. 
           </li>
           <li id="Rehearse">
             <b><i>REHEARSE</i></b> Dance practices are held as needed with dance instructor Ms. Sheryl Guerrero in the sanctuary in preparation for upcoming services.
