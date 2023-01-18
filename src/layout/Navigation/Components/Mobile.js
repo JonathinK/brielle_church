@@ -69,7 +69,6 @@ import useOnClickOutside from "../../../hooks/useOnClickOutside";
         </NavLink>
         <SubMenu MobileSub dropMinistries={dropMinistries} className="ministries">
           <NavLinksWrapper MobileSubLinks>
-            <NavLinkWrapper><NavLink sublink to="/ministries/childrens-ministry">Children's</NavLink></NavLinkWrapper>
             <NavLinkWrapper><NavLink sublink to="/ministries/music-liturgical-arts">Music & Lit Arts</NavLink></NavLinkWrapper>
             <NavLinkWrapper><NavLink sublink to="/ministries/mission-outreach">Missions</NavLink></NavLinkWrapper>
           </NavLinksWrapper>
