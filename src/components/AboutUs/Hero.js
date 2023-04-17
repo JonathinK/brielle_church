@@ -33,7 +33,6 @@ export const Hero = () => {
       </HeroImage>
       <HeroTitleContainer>
         <PageTitle>About Us</PageTitle>
-        <AltPageTitleText>We are <strong>Passionate</strong> about <strong>Jesus</strong></AltPageTitleText>
       </HeroTitleContainer>
       <HeroSvg BottomNoOpacity><BottomSvg/></HeroSvg>
       <HeroSvg Top><TopSvg/></HeroSvg>
