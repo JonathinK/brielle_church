@@ -17,6 +17,18 @@ export const TextWrapper = styled.div`
     align-items:center;
     gap:1em;
   }
+  .button_wrapper{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    padding: 1rem;
+    gap:1rem;
+    button{
+      margin:0;
+    }
+  }
   @media ${({theme}) => theme.breakpoints.tablet}{
     grid-column:${props => props.TC};
     grid-row: ${props => props.TR};
