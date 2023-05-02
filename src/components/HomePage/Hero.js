@@ -48,9 +48,10 @@ export const Hero = () => {
         <CenterSvg/>
       </SvgWrapper> 
         <Headline WhiteColor> Community | Family | God </Headline>
+        <div className="button_wrapper">
         <Button onClick={handleDownload} WhiteButton> Download Announcements </Button>
         <Button WhiteButton><OutsideLink href="https://m.facebook.com/Thechurchinbrielle/?mibextid=LQQJ4d">Facebook Live</OutsideLink></Button>
-         
+        </div>
       </TextWrapper>
       <SvgWrapper
         R="3/4"
