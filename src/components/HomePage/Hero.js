@@ -11,7 +11,7 @@ import { HeroSection, HeroImage } from "../../styles/HeroSection";
 import { Subtitle } from "../../styles/pagehero";
 import HeroWave from "../../Svg/assets/Alt-Hero-Curve.svg"
 import CenterSvg from "../../Svg/assets/Homepage-Hero-Svg.svg";
-import WeeklyAnnoucement from "../../data/weekly-announcements.docx"
+import WeeklyAnnoucement from "../../data/weekly-announcement.docx"
 
 
 export const Hero = () => {
