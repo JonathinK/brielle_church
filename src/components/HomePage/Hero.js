@@ -11,10 +11,13 @@ import { HeroSection, HeroImage } from "../../styles/HeroSection";
 import { Subtitle } from "../../styles/pagehero";
 import HeroWave from "../../Svg/assets/Alt-Hero-Curve.svg"
 import CenterSvg from "../../Svg/assets/Homepage-Hero-Svg.svg";
-
+import WeeklyAnnoucement from "../../data/weekly-announcements.docx"
 
 
 export const Hero = () => {
+  const handleDownload = () => {
+    window.open(WeeklyAnnouncement, "_blank")
+  }
   return(
     <HeroSection>
       <HeroImage className="homepage_hero">
@@ -44,7 +47,10 @@ export const Hero = () => {
         <CenterSvg/>
       </SvgWrapper> 
         <Headline WhiteColor>Community | Family | God</Headline>
+        <div className="button_wrapper"> 
+        <Button onClick={handleDownload} WhiteButton>Download Announcements</Button>
         <Button WhiteButton><OutsideLink href="https://m.facebook.com/Thechurchinbrielle/?mibextid=LQQJ4d">Facebook Live</OutsideLink></Button>
+        </div>
       </TextWrapper>
       <SvgWrapper
         R="3/4"
