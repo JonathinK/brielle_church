@@ -1,5 +1,20 @@
-/* exports.createPages = async function({actions, graphql}) {
-  const {data} = await graphql`
-
-  `
-} */
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    module: {
+      rules: [
+        {
+          test: /\.(docx)$/i,
+          use: [
+            {
+              loader: "file-loader",
+              options: {
+                name: "[name].[ext]",
+                outputPath: "docs/",
+              },
+            },
+          ],
+        },
+      ],
+    },
+  })
+}
